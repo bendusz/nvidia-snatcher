@@ -194,7 +194,6 @@ export const AmazonUk: Store = {
 				if (card) {
 					links.push({
 						brand: card.brand as any,
-						cartUrl: `https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=${asin}&Quantity.1=1`,
 						model: card.model,
 						series,
 						url
