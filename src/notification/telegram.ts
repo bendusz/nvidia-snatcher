@@ -14,7 +14,7 @@ export function sendTelegramMessage(link: Link, store: Store) {
 		logger.debug('↗ sending telegram message');
 
 		(async () => {
-			const givenUrl = link.cartUrl ? link.cartUrl : link.url;
+			const givenUrl = link.url;
 			const results = [];
 
 			for (const chatId of telegram.chatId) {

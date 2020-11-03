@@ -5,12 +5,15 @@ import {AlternateNL} from './alternate-nl';
 import {Amazon} from './amazon';
 import {AmazonCa} from './amazon-ca';
 import {AmazonDe} from './amazon-de';
+import {AmazonFr} from './amazon-fr';
+import {AmazonIt} from './amazon-it';
 import {AmazonEs} from './amazon-es';
 import {AmazonNl} from './amazon-nl';
 import {AmazonUk} from './amazon-uk';
 import {Aria} from './aria';
 import {Asus} from './asus';
 import {AsusDe} from './asus-de';
+import {Awd} from './awd';
 import {Azerty} from './azerty';
 import {BAndH} from './bandh';
 import {BestBuy} from './bestbuy';
@@ -32,6 +35,7 @@ import {MicroCenter} from './microcenter';
 import {Mindfactory} from './mindfactory';
 import {Newegg} from './newegg';
 import {NeweggCa} from './newegg-ca';
+import {NeweggUk} from './newegg-uk';
 import {Notebooksbilliger} from './notebooksbilliger';
 import {Novatech} from './novatech';
 import {Nvidia} from './nvidia';
@@ -56,12 +60,15 @@ export const storeList = new Map([
 	[Amazon.name, Amazon],
 	[AmazonCa.name, AmazonCa],
 	[AmazonDe.name, AmazonDe],
+	[AmazonFr.name, AmazonFr],
+	[AmazonIt.name, AmazonIt],
 	[AmazonEs.name, AmazonEs],
 	[AmazonNl.name, AmazonNl],
 	[AmazonUk.name, AmazonUk],
 	[Aria.name, Aria],
 	[Asus.name, Asus],
 	[AsusDe.name, AsusDe],
+	[Awd.name, Awd],
 	[Azerty.name, Azerty],
 	[BAndH.name, BAndH],
 	[BestBuy.name, BestBuy],
@@ -82,6 +89,7 @@ export const storeList = new Map([
 	[MicroCenter.name, MicroCenter],
 	[Mindfactory.name, Mindfactory],
 	[Newegg.name, Newegg],
+	[NeweggUk.name, NeweggUk],
 	[NeweggCa.name, NeweggCa],
 	[Notebooksbilliger.name, Notebooksbilliger],
 	[Novatech.name, Novatech],
