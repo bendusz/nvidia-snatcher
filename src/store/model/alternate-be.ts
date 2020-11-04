@@ -12,7 +12,7 @@ export const AlternateBE: Store = {
 		},
 		outOfStock: {
 			container: '.stockStatus',
-			text: ['Levertermijn onbekend', 'pre-order']
+			text: ['Leg in de winkelwagen', 'preorder nu!']
 		}
 	},
 	links: [
