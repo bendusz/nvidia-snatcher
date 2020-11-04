@@ -181,7 +181,7 @@ export const AmazonUk: Store = {
 					continue;
 				}
 
-				const url = `https://www.amazon.co.uk/dp/${asin}/`;
+				const url = `https://www.amazon.co.uk/dp/${asin}?tag=b3sz4r4s-21`;
 				const titleElement = productElement.find('.sg-col-inner h2 a.a-text-normal[href] span').first();
 				const title = titleElement.text().trim();
 
