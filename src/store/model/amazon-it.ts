@@ -387,6 +387,24 @@ export const AmazonIt: Store = {
 			model: 'VENTUS 3X OC',
 			series: '3070',
 			url: 'https://www.amazon.it/dp/B08KWLMZV4?tag=b3sz4r4s0a-21'
+		},
+		{
+			brand: 'amd',
+			model: '5900x',
+			series: 'ryzen 9',
+			url: 'https://www.amazon.it/dp/B08164VTWH?tag=b3sz4r4s0a-21'
+		},
+		{
+			brand: 'amd',
+			model: '5800x',
+			series: 'ryzen 7',
+			url: 'https://www.amazon.it/dp/B0815XFSGK?tag=b3sz4r4s0a-21'
+		},
+		{
+			brand: 'amd',
+			model: '5600x',
+			series: 'ryzen 5',
+			url: 'https://www.amazon.it/dp/B08166SLDF?tag=b3sz4r4s0a-21'
 		}
 	],
 	name: 'amazon-it'
