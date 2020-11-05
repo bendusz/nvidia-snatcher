@@ -1,6 +1,7 @@
 import {Store} from './store';
 
 export const Computeruniverse: Store = {
+	backoffStatusCodes: [403, 429, 503],
 	labels: {
 		inStock: {
 			container: '.availability',

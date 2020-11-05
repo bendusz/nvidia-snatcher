@@ -2,6 +2,7 @@ import {Store} from './store';
 import {getProductLinksBuilder} from './helpers/card';
 
 export const Ccl: Store = {
+	backoffStatusCodes: [403, 429, 503],
 	labels: {
 		inStock: {
 			container: '#pnlAddToBasket',

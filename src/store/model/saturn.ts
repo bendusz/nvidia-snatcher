@@ -1,6 +1,7 @@
 import {Store} from './store';
 
 export const Saturn: Store = {
+	backoffStatusCodes: [403, 429, 503],
 	labels: {
 		maxPrice: {
 			container: 'span[font-family="price"]',

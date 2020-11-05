@@ -1,6 +1,7 @@
 import {Store} from './store';
 
 export const AmazonFr: Store = {
+	backoffStatusCodes: [403, 429, 503],
 	labels: {
 		captcha: {
 			container: 'body',

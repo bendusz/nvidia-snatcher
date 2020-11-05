@@ -2,6 +2,7 @@ import {Store} from './store';
 import fetch from 'node-fetch';
 
 export const NeweggUk: Store = {
+	backoffStatusCodes: [403, 429, 503],
 	labels: {
 		captcha: {
 			container: 'body',
