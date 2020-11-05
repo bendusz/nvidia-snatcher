@@ -109,7 +109,7 @@ export function parseCard(name: string): Card | null {
 			return false;
 		}
 
-		return !word.match(/^(nvidia|geforce|ge|force|rtx|amp[ae]re|graphics|card|gpu|pci-?e(xpress)?|ray-?tracing|ray|tracing|core|boost|epicx)$/i) &&
+		return !word.match(/^(nvidia|geforce|ge|force|rtx|amp[ae]re|graphics|card|gpu|pci-?e(xpress)?|ray-?tracing|ray|tracing|core|boost|epicx|box|zen3|zen|processor)$/i) &&
 			!word.match(/^(\d+(?:gb?|mhz)?|gb|mhz|g?ddr(\d+x?)?)$/i) &&
 			!word.match(/^(display ?port|hdmi|vga)$/i);
 	});

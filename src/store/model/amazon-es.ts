@@ -381,6 +381,12 @@ export const AmazonEs: Store = {
 			model: 'Ventus 2X OC',
 			series: '3070',
 			url: 'https://www.amazon.es/dp/B08LNQTSCT?tag=b4sz4r4s-21'
+		},
+		{
+			brand: 'msi',
+			model: 'VENTUS 3X OC',
+			series: '3070',
+			url: 'https://www.amazon.es/dp/B08KWLMZV4?tag=b4sz4r4s-21'
 		}
 	],
 	name: 'amazon-es'
