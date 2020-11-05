@@ -68,7 +68,7 @@ export function sendTwitchMessage(link: Link, store: Store) {
 	if (tokenData.accessToken && twitch.channel && twitch.clientId && twitch.clientSecret && tokenData.refreshToken) {
 		logger.debug('↗ sending twitch message');
 
-		messages.push(`${Print.inStock(link, store)}\n${link.cartUrl ? link.cartUrl : link.url}`);
+		messages.push(`${Print.inStock(link, store)}\n${link.url}`);
 
 		if (!alreadySaying) {
 			alreadySaying = true;
