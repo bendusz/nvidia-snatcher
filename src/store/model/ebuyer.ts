@@ -22,6 +22,29 @@ export const Ebuyer: Store = {
 			model: 'test:model',
 			series: 'test:series',
 			url: 'https://www.ebuyer.com/874209-gigabyte-geforce-rtx-2060-windforce-6gb-oc-graphics-card-gv-n2060wf2oc-6gd-v2'
+		},
+		{
+			brand: 'amd',
+			model: '5600x',
+			series: 'ryzen 5',
+			url: 'https://www.ebuyer.com/1126988-amd-ryzen-5-5600x-am4-processor-100-100000065box'
+		},
+		{
+			brand: 'amd',
+			model: '5800x',
+			series: 'ryzen 7',
+			url: 'https://www.ebuyer.com/1126987-amd-ryzen-7-5800x-am4-processor-100-100000063wof'
+		},
+		{
+			brand: 'amd',
+			model: '5900x',
+			series: 'ryzen 9',
+			url: 'https://www.ebuyer.com/1126986-amd-ryzen-9-5900x-am4-processor-100-100000061wof'
+		},{
+			brand: 'amd',
+			model: '5950x',
+			series: 'ryzen 9',
+			url: 'https://www.ebuyer.com/1126985-amd-ryzen-9-5950x-am4-processor-100-100000059wof'
 		}
 	],
 	linksBuilder: {
