@@ -393,19 +393,19 @@ export const AmazonEs: Store = {
 			brand: 'amd',
 			model: '5900x',
 			series: 'ryzen 9',
-			url: 'https://www.amazon.es/dp/B08164VTWH?tag=.bend3st02c-21'
+			url: 'https://www.amazon.es/dp/B08164VTWH?tag=bend3st02c-21'
 		},
 		{
 			brand: 'amd',
 			model: '5800x',
 			series: 'ryzen 7',
-			url: 'https://www.amazon.es/dp/B0815XFSGK?tag=.bend3st02c-21'
+			url: 'https://www.amazon.es/dp/B0815XFSGK?tag=bend3st02c-21'
 		},
 		{
 			brand: 'amd',
 			model: '5600x',
 			series: 'ryzen 5',
-			url: 'https://www.amazon.es/dp/B08166SLDF?tag=.bend3st02c-21'
+			url: 'https://www.amazon.es/dp/B08166SLDF?tag=bend3st02c-21'
 		}
 	],
 	name: 'amazon-es'

@@ -399,13 +399,13 @@ export const AmazonDe: Store = {
 			brand: 'amd',
 			model: '5800x',
 			series: 'ryzen 7',
-			url: 'https://www.amazon.de/dp/B0815XFSGK?tag=.bend3st0e9-21'
+			url: 'https://www.amazon.de/dp/B0815XFSGK?tag=bend3st0e9-21'
 		},
 		{
 			brand: 'amd',
 			model: '5600x',
 			series: 'ryzen 5',
-			url: 'https://www.amazon.de/dp/B08166SLDF?tag=.bend3st0e9-21'
+			url: 'https://www.amazon.de/dp/B08166SLDF?tag=bend3st0e9-21'
 		}
 	],
 	name: 'amazon-de'
