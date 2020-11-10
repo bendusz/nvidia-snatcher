@@ -46,7 +46,35 @@ export const Ebuyer: Store = {
 			model: '5950x',
 			series: 'ryzen 9',
 			url: 'https://www.ebuyer.com/1126985-amd-ryzen-9-5950x-am4-processor-100-100000059wof'
+		},
+		{
+			brand: 'sony',
+			model: 'console',
+			series: 'playstation',
+			url: 'https://www.ebuyer.com/1125329-sony-playstation-5-console-cfi-1015a'
+		},
+		{
+			brand: 'sony',
+			model: 'digital',
+			series: 'playstation',
+			url:
+				'https://www.ebuyer.com/1125332-sony-playstation-5-digital-edition-cfi-1015b'
+		},
+		{
+			brand: 'microsoft',
+			model: 'series s',
+			series: 'xbox',
+			url:
+				'https://www.ebuyer.com/1125562-xbox-series-s-all-digital-console-rrs-00007'
+		},
+		{
+			brand: 'microsoft',
+			model: 'series x',
+			series: 'xbox',
+			url:
+				'https://www.ebuyer.com/1125563-xbox-series-x-console-rrt-00007'
 		}
+		
 	],
 	linksBuilder: {
 		builder: getProductLinksBuilder({

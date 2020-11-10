@@ -56,6 +56,11 @@ export const Aria: Store = {
 		}),
 		urls: [
 			{
+				series: '3070',
+				url: 'https://www.aria.co.uk/Products/Components/Graphics+Cards/NVIDIA+GeForce/GeForce+RTX+3070'
+
+			},
+			{
 				series: '3080',
 				url: 'https://www.aria.co.uk/Products/Components/Graphics+Cards/NVIDIA+GeForce/GeForce+RTX+3080'
 			},

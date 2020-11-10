@@ -1,4 +1,6 @@
 import {config, defaultStoreData} from '../../config';
+import {AMD} from './amd';
+import {AMDDe} from './amd-de';
 import {Adorama} from './adorama';
 import {Alternate} from './alternate';
 import {AlternateNL} from './alternate-nl';
@@ -12,6 +14,7 @@ import {AmazonEs} from './amazon-es';
 import {AmazonNl} from './amazon-nl';
 import {AmazonUk} from './amazon-uk';
 import {Aria} from './aria';
+import {Arlt} from './arlt';
 import {Asus} from './asus';
 import {AsusDe} from './asus-de';
 import {Awd} from './awd';
@@ -30,8 +33,11 @@ import {Cyberport} from './cyberport';
 import {Ebuyer} from './ebuyer';
 import {Evga} from './evga';
 import {EvgaEu} from './evga-eu';
+import {Galaxus} from './galaxus';
+import {Game} from './game';
 import {Gamestop} from './gamestop';
 import {Mediamarkt} from './mediamarkt';
+import {MemoryExpress} from './memoryexpress';
 import {MicroCenter} from './microcenter';
 import {Mindfactory} from './mindfactory';
 import {Newegg} from './newegg';
@@ -55,6 +61,8 @@ import {Zotac} from './zotac';
 import {logger} from '../../logger';
 
 export const storeList = new Map([
+	[AMD.name, AMD],
+	[AMDDe.name, AMDDe],
 	[Adorama.name, Adorama],
 	[Alternate.name, Alternate],
 	[AlternateNL.name, AlternateNL],
@@ -68,6 +76,7 @@ export const storeList = new Map([
 	[AmazonNl.name, AmazonNl],
 	[AmazonUk.name, AmazonUk],
 	[Aria.name, Aria],
+	[Arlt.name, Arlt],
 	[Asus.name, Asus],
 	[AsusDe.name, AsusDe],
 	[Awd.name, Awd],
@@ -86,8 +95,11 @@ export const storeList = new Map([
 	[Ebuyer.name, Ebuyer],
 	[Evga.name, Evga],
 	[EvgaEu.name, EvgaEu],
+	[Galaxus.name, Galaxus],
+	[Game.name, Game],
 	[Gamestop.name, Gamestop],
 	[Mediamarkt.name, Mediamarkt],
+	[MemoryExpress.name, MemoryExpress],
 	[MicroCenter.name, MicroCenter],
 	[Mindfactory.name, Mindfactory],
 	[Newegg.name, Newegg],

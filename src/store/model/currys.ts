@@ -41,11 +41,24 @@ export const Currys: Store = {
 			model: '5900x',
 			series: 'ryzen 9',
 			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/processors/amd-ryzen-9-5900x-processor-10216689-pdt.html'
-		},{
+		},
+		{
 			brand: 'amd',
 			model: '5950x',
 			series: 'ryzen 9',
 			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/processors/amd-ryzen-9-5950x-processor-10216688-pdt.html'
+		},
+		{
+			brand: 'microsoft',
+			model: 'series x',
+			series: 'xbox',
+			url: 'https://business.currys.co.uk/catalogue/tv-entertainment/gaming/gaming-consoles/microsoft-xbox-series-x-1-tb/N780279W'
+		},
+		{
+			brand: 'microsoft',
+			model: 'series s',
+			series: 'xbox',
+			url: 'https://www.currys.co.uk/gbuk/gaming/console-gaming/consoles/microsoft-xbox-series-s-512-gb-ssd-10205195-pdt.html'
 		}
 	],
 	linksBuilder: {
@@ -56,6 +69,11 @@ export const Currys: Store = {
 			urlSelector: 'a[href]'
 		}),
 		urls: [
+			{
+				series: '3070',
+				url: 'https://www.currys.co.uk/gbuk/rtx-3070/components-upgrades/graphics-cards/324_3091_30343_xx_ba00013562-bv00313849/xx-criteria.html'
+
+			},
 			{
 				series: '3080',
 				url: 'https://www.currys.co.uk/gbuk/rtx-3080/components-upgrades/graphics-cards/324_3091_30343_xx_ba00013562-bv00313767/xx-criteria.html'
