@@ -1,5 +1,4 @@
 import {Link, Store} from '../store/model';
-import {adjustPhilipsHueLights} from './philips-hue';
 import {playSound} from './sound';
 import {sendDesktopNotification} from './desktop';
 import {sendDiscordMessage} from './discord';
@@ -22,7 +21,6 @@ export function sendNotification(link: Link, store: Store) {
 	sendSms(link, store);
 	sendDesktopNotification(link, store);
 	// Non-priority
-	adjustPhilipsHueLights();
 	sendDiscordMessage(link, store);
 	sendMqttMessage(link, store);
 	sendPagerDutyNotification(link, store);
