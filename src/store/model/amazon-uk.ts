@@ -190,9 +190,21 @@ export const AmazonUk: Store = {
 			model: '5600x',
 			series: 'ryzen 5',
 			url: 'https://www.amazon.co.uk/dp/B08166SLDF?tag=bend3st0b-21'
+		},
+		{
+			brand: 'microsoft',
+			model: 'series x',
+			series: 'xbox',
+			url: 'https://www.amazon.co.uk/dp/B08H93GKNJ?tag=bend3st0b-21'
+		},
+		{
+			brand: 'microsoft',
+			model: 'series s',
+			series: 'xbox',
+			url: 'https://www.amazon.co.uk/dp/B08GD9MNZB?tag=bend3st0b-21'
 		}
-		
-		
+
+
 	],
 	linksBuilder: {
 		builder: (docElement, series) => {

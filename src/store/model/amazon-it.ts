@@ -406,6 +406,18 @@ export const AmazonIt: Store = {
 			model: '5600x',
 			series: 'ryzen 5',
 			url: 'https://www.amazon.it/dp/B08166SLDF?tag=bend3st0bd-21'
+		},
+		{
+			brand: 'microsoft',
+			model: 'series x',
+			series: 'xbox',
+			url: 'https://www.amazon.it/dp/B08JDSW1ZW?tag=bend3st0bd-21'
+		},
+		{
+			brand: 'microsoft',
+			model: 'series s',
+			series: 'xbox',
+			url: 'https://www.amazon.it/dp/B08JDTCXRG?tag=bend3st0bd-21'
 		}
 	],
 	name: 'amazon-it'
