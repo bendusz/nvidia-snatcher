@@ -21,7 +21,8 @@ export function sendTweet(link: Link, store: Store) {
 	) {
 		logger.debug('↗ sending twitter message');
 
-		let status = `${Print.inStock(link, store)}\n${
+		let d = new Date().toLocaleTimeString();
+		let status = `${d}\n${Print.inStock(link, store)}\n${
 			link.cartUrl ? link.cartUrl : link.url
 		}`;
 
