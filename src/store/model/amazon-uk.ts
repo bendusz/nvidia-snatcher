@@ -42,7 +42,7 @@ export const AmazonUk: Store = {
 				'https://www.amazon.co.uk/dp/B08FC5L3RG?tag=bend3st0b-21',
 			model: 'console',
 			series: 'playstation',
-			url: 'https://www.amazon.com/dp/B08FC5L3RG'
+			url: 'https://www.amazon.co.uk/dp/B08FC5L3RG/'
 		},
 		{
 			brand: 'sony',
@@ -55,7 +55,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'microsoft',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08H97NYGP?tag=bend3st0b-21',
+				'https://www.amazon.co.uk/dp/B08H93GKNJ?tag=bend3st0b-21',
 			model: 'series x',
 			series: 'xbox',
 			url: 'https://www.amazon.co.uk/dp/B08H93GKNJ/'
@@ -63,7 +63,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'microsoft',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08H97NYGP?tag=bend3st0b-21',
+				'https://www.amazon.co.uk/dp/B08GD9MNZB?tag=bend3st0b-21',
 			model: 'series s',
 			series: 'xbox',
 			url: 'https://www.amazon.co.uk/dp/B08GD9MNZB/'

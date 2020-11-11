@@ -544,20 +544,36 @@ export const AmazonDe: Store = {
 			url: 'https://www.amazon.de/dp/B08166SLDF/'
 		},
 		{
-			brand: 'microsoft',
+			brand: 'sony',
 			cartUrl:
-				'https://www.amazon.de/dp/B08H93ZRLL?tag=bend3st0e9-21',
-			model: 'series x',
-			series: 'xbox',
-			url: 'https://www.amazon.de/dp/B08H93ZRLL/'
+				'https://www.amazon.de/dp/B08FC5L3RG?tag=bend3st0e9-21',
+			model: 'console',
+			series: 'playstation',
+			url: 'https://www.amazon.de/dp/B08FC5L3RG/'
+		},
+		{
+			brand: 'sony',
+			cartUrl:
+				'https://www.amazon.de/dp/B08H97NYGP?tag=bend3st0e9-21',
+			model: 'digital',
+			series: 'playstation',
+			url: 'https://www.amazon.de/dp/B08H97NYGP/'
 		},
 		{
 			brand: 'microsoft',
 			cartUrl:
-				'https://www.amazon.de/dp/B087VM5XC6?tag=bend3st0e9-21',
+				'https://www.amazon.de/dp/B08H93GKNJ?tag=bend3st0e9-21',
+			model: 'series x',
+			series: 'xbox',
+			url: 'https://www.amazon.de/dp/B08H93GKNJ/'
+		},
+		{
+			brand: 'microsoft',
+			cartUrl:
+				'https://www.amazon.de/dp/B08GD9MNZB?tag=bend3st0e9-21',
 			model: 'series s',
 			series: 'xbox',
-			url: 'https://www.amazon.de/dp/B087VM5XC6/'
+			url: 'https://www.amazon.de/dp/B08GD9MNZB/'
 		}
 	],
 	name: 'amazon-de'

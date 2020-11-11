@@ -544,20 +544,36 @@ export const AmazonEs: Store = {
 			url: 'https://www.amazon.es/dp/B08166SLDF/'
 		},
 		{
-			brand: 'microsoft',
+			brand: 'sony',
 			cartUrl:
-				'https://www.amazon.es/dp/B08H93ZRLL?tag=bend3st02c-21',
-			model: 'series x',
-			series: 'xbox',
-			url: 'https://www.amazon.es/dp/B08H93ZRLL/'
+				'https://www.amazon.es/dp/B08FC5L3RG?tag=bend3st02c-21',
+			model: 'console',
+			series: 'playstation',
+			url: 'https://www.amazon.es/dp/B08FC5L3RG/'
+		},
+		{
+			brand: 'sony',
+			cartUrl:
+				'https://www.amazon.es/dp/B08H97NYGP?tag=bend3st02c-21',
+			model: 'digital',
+			series: 'playstation',
+			url: 'https://www.amazon.es/dp/B08H97NYGP/'
 		},
 		{
 			brand: 'microsoft',
 			cartUrl:
-				'https://www.amazon.es/dp/B087VM5XC6?tag=bend3st02c-21',
+				'https://www.amazon.es/dp/B08H93GKNJ?tag=bend3st02c-21',
+			model: 'series x',
+			series: 'xbox',
+			url: 'https://www.amazon.es/dp/B08H93GKNJ/'
+		},
+		{
+			brand: 'microsoft',
+			cartUrl:
+				'https://www.amazon.es/dp/B08GD9MNZB?tag=bend3st02c-21',
 			model: 'series s',
 			series: 'xbox',
-			url: 'https://www.amazon.es/dp/B087VM5XC6/'
+			url: 'https://www.amazon.es/dp/B08GD9MNZB/'
 		}
 	],
 	name: 'amazon-es'
