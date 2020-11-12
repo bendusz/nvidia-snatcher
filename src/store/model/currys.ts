@@ -125,6 +125,72 @@ export const Currys: Store = {
 			model: 'auros xtreme',
 			series: '3080',
 			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/gigabyte-geforce-rtx-3080-10-gb-aorus-xtreme-graphics-card-10216731-pdt.html'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'eagle',
+			series: '3070',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/gigabyte-geforce-rtx-3070-8-gb-eagle-graphics-card-10217336-pdt.html'
+		},
+		{
+			brand: 'asus',
+			model: 'dual',
+			series: '3070',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/asus-geforce-rtx-3070-8-gb-dual-graphics-card-10215777-pdt.html'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'eagle oc',
+			series: '3070',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/gigabyte-geforce-rtx-3070-8-gb-eagle-oc-graphics-card-10216239-pdt.html'
+		},
+		{
+			brand: 'msi',
+			model: 'ventus 2x oc',
+			series: '3070',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/msi-geforce-rtx-3070-8-gb-ventus-2x-oc-graphics-card-10217083-pdt.html'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'gaming oc',
+			series: '3070',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/gigabyte-geforce-rtx-3070-8-gb-gaming-oc-graphics-card-10216240-pdt.html'
+		},
+		{
+			brand: 'asus',
+			model: 'dual oc',
+			series: '3070',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/asus-geforce-rtx-3070-8-gb-dual-oc-graphics-card-10215776-pdt.html'
+		},
+		{
+			brand: 'msi',
+			model: 'ventus 3x oc',
+			series: '3070',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/msi-geforce-rtx-3070-8-gb-ventus-3x-oc-graphics-card-10217078-pdt.html'
+		},
+		{
+			brand: 'asus',
+			model: 'tuf oc',
+			series: '3070',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/asus-geforce-rtx-3070-8-gb-tuf-oc-gaming-graphics-card-10217338-pdt.html'
+		},
+		{
+			brand: 'msi',
+			model: 'gaming x trio',
+			series: '3070',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/msi-geforce-rtx-3070-8-gb-gaming-x-trio-graphics-card-10217077-pdt.html'
+		},
+		{
+			brand: 'asus',
+			model: 'rog strix',
+			series: '3070',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/asus-geforce-rtx-3070-8-gb-rog-strix-gaming-graphics-card-10215775-pdt.html'
+		},
+		{
+			brand: 'asus',
+			model: 'rog strix oc',
+			series: '3070',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/asus-geforce-rtx-3070-8-gb-rog-strix-gaming-oc-graphics-card-10215770-pdt.html'
 		}
 	],
 	linksBuilder: {
@@ -135,11 +201,11 @@ export const Currys: Store = {
 			urlSelector: 'a[href]'
 		}),
 		urls: [
-			{
-				series: '3070',
-				url: 'https://www.currys.co.uk/gbuk/rtx-3070/components-upgrades/graphics-cards/324_3091_30343_xx_ba00013562-bv00313849/xx-criteria.html'
+			// {
+			// 	series: '3070',
+			// 	url: 'https://www.currys.co.uk/gbuk/rtx-3070/components-upgrades/graphics-cards/324_3091_30343_xx_ba00013562-bv00313849/xx-criteria.html'
 
-			},
+			// },
 			// {
 			// 	series: '3080',
 			// 	url: 'https://www.currys.co.uk/gbuk/rtx-3080/components-upgrades/graphics-cards/324_3091_30343_xx_ba00013562-bv00313767/xx-criteria.html'
