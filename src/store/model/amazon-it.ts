@@ -511,38 +511,38 @@ export const AmazonIt: Store = {
 			series: '3070',
 			url: 'https://www.amazon.it/dp/B08KWLMZV4/'
 		},
-		{
-			brand: 'amd',
-			cartUrl:
-				'https://www.amazon.it/dp/B0815Y8J9N?tag=bend3st0bd-21',
-			model: '5950x',
-			series: 'ryzen 9',
-			url: 'https://www.amazon.it/dp/B0815Y8J9N/'
-		},
-		{
-			brand: 'amd',
-			cartUrl:
-				'https://www.amazon.it/dp/B08164VTWH?tag=bend3st0bd-21',
-			model: '5900x',
-			series: 'ryzen 9',
-			url: 'https://www.amazon.it/dp/B08164VTWH/'
-		},
-		{
-			brand: 'amd',
-			cartUrl:
-				'https://www.amazon.it/dp/B0815XFSGK?tag=bend3st0bd-21',
-			model: '5800x',
-			series: 'ryzen 7',
-			url: 'https://www.amazon.it/dp/B0815XFSGK/'
-		},
-		{
-			brand: 'amd',
-			cartUrl:
-				'https://www.amazon.it/dp/B08166SLDF?tag=bend3st0bd-21',
-			model: '5600x',
-			series: 'ryzen 5',
-			url: 'https://www.amazon.it/dp/B08166SLDF/'
-		},
+		// {
+		// 	brand: 'amd',
+		// 	cartUrl:
+		// 		'https://www.amazon.it/dp/B0815Y8J9N?tag=bend3st0bd-21',
+		// 	model: '5950x',
+		// 	series: 'ryzen 9',
+		// 	url: 'https://www.amazon.it/dp/B0815Y8J9N/'
+		// },
+		// {
+		// 	brand: 'amd',
+		// 	cartUrl:
+		// 		'https://www.amazon.it/dp/B08164VTWH?tag=bend3st0bd-21',
+		// 	model: '5900x',
+		// 	series: 'ryzen 9',
+		// 	url: 'https://www.amazon.it/dp/B08164VTWH/'
+		// },
+		// {
+		// 	brand: 'amd',
+		// 	cartUrl:
+		// 		'https://www.amazon.it/dp/B0815XFSGK?tag=bend3st0bd-21',
+		// 	model: '5800x',
+		// 	series: 'ryzen 7',
+		// 	url: 'https://www.amazon.it/dp/B0815XFSGK/'
+		// },
+		// {
+		// 	brand: 'amd',
+		// 	cartUrl:
+		// 		'https://www.amazon.it/dp/B08166SLDF?tag=bend3st0bd-21',
+		// 	model: '5600x',
+		// 	series: 'ryzen 5',
+		// 	url: 'https://www.amazon.it/dp/B08166SLDF/'
+		// },
 		{
 			brand: 'sony',
 			cartUrl:
