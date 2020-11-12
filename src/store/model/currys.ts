@@ -59,6 +59,72 @@ export const Currys: Store = {
 			model: 'series s',
 			series: 'xbox',
 			url: 'https://www.currys.co.uk/gbuk/gaming/console-gaming/consoles/microsoft-xbox-series-s-512-gb-ssd-10205195-pdt.html'
+		},
+		{
+			brand: 'asus',
+			model: 'tuf gaming oc',
+			series: '3080',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/asus-geforce-rtx-3080-10-gb-tuf-gaming-oc-graphics-card-10214446-pdt.html'
+		},
+		{
+			brand: 'asus',
+			model: 'rog strix oc',
+			series: '3080',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/asus-geforce-rtx-3080-10-gb-rog-strix-gaming-oc-graphics-card-10215051-pdt.html'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'vision oc',
+			series: '3080',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/gigabyte-geforce-rtx-3080-10-gb-vision-oc-graphics-card-10216248-pdt.html'
+		},
+		{
+			brand: 'asus',
+			model: 'tuf',
+			series: '3080',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/asus-geforce-rtx-3080-10-gb-tuf-gaming-graphics-card-10214421-pdt.html'
+		},
+		{
+			brand: 'msi',
+			model: 'gaming x trio',
+			series: '3080',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/msi-geforce-rtx-3080-10-gb-gaming-x-trio-graphics-card-10214425-pdt.html'
+		},
+		{
+			brand: 'asus',
+			model: 'rog strix',
+			series: '3080',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/asus-geforce-rtx-3080-10-gb-rog-strix-gaming-graphics-card-10214882-pdt.html'
+		},
+		{
+			brand: 'msi',
+			model: 'ventus 3x oc',
+			series: '3080',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/msi-geforce-rtx-3080-10-gb-ventus-3x-oc-graphics-card-10214426-pdt.html'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'gaming oc',
+			series: '3080',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/gigabyte-geforce-rtx-3080-10-gb-gaming-oc-graphics-card-10214434-pdt.html'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'aorus master',
+			series: '3080',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/gigabyte-geforce-rtx-3080-10-gb-aorus-master-graphics-card-10216247-pdt.html'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'eagle oc',
+			series: '3080',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/gigabyte-geforce-rtx-3080-10-gb-eagle-oc-graphics-card-10214430-pdt.html'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'auros xtreme',
+			series: '3080',
+			url: 'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/gigabyte-geforce-rtx-3080-10-gb-aorus-xtreme-graphics-card-10216731-pdt.html'
 		}
 	],
 	linksBuilder: {
@@ -74,10 +140,10 @@ export const Currys: Store = {
 				url: 'https://www.currys.co.uk/gbuk/rtx-3070/components-upgrades/graphics-cards/324_3091_30343_xx_ba00013562-bv00313849/xx-criteria.html'
 
 			},
-			{
-				series: '3080',
-				url: 'https://www.currys.co.uk/gbuk/rtx-3080/components-upgrades/graphics-cards/324_3091_30343_xx_ba00013562-bv00313767/xx-criteria.html'
-			},
+			// {
+			// 	series: '3080',
+			// 	url: 'https://www.currys.co.uk/gbuk/rtx-3080/components-upgrades/graphics-cards/324_3091_30343_xx_ba00013562-bv00313767/xx-criteria.html'
+			// }, // was not working so took it off
 			{
 				series: '3090',
 				url: 'https://www.currys.co.uk/gbuk/rtx-3090/components-upgrades/graphics-cards/324_3091_30343_xx_ba00013562-bv00313725/xx-criteria.html'
