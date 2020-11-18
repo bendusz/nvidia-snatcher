@@ -10,10 +10,10 @@ export type Pricing = {
 	euroFormat?: boolean;
 };
 
-export type Series = 'test:series' | '3070' | '3080' | '3090' | 'ryzen 5' | 'ryzen 7' | 'ryzen 9' | 'xbox' | 'playstation' ;
+export type Series = 'test:series' | '3070' | '3080' | '3090' | 'ryzen 5' | 'ryzen 7' | 'ryzen 9' | 'xbox' | 'playstation' | '6800' | '6800xt' | '6900xt';
 
 export type Link = {
-	brand: 'test:brand' | 'asus' | 'evga' | 'gainward' | 'gigabyte' | 'inno3d' | 'kfa2' | 'msi' | 'nvidia' | 'palit' | 'pny' | 'zotac' | 'amd' | 'microsoft' | 'sony' ;
+	brand: 'test:brand' | 'asus' | 'evga' | 'gainward' | 'gigabyte' | 'inno3d' | 'kfa2' | 'msi' | 'nvidia' | 'palit' | 'pny' | 'zotac' | 'amd' | 'microsoft' | 'sony' | 'powercolor' | 'xfx' | 'sapphire' ;
 	itemNumber?: string;
 	series: Series;
 	model: string;

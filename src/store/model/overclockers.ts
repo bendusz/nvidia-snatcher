@@ -41,7 +41,8 @@ export const Overclockers: Store = {
 			model: '5900x',
 			series: 'ryzen 9',
 			url: 'https://www.overclockers.co.uk/amd-ryzen-9-5900x-twelve-core-4.8ghz-socket-am4-processor-retail-cp-3ca-am.html'
-		},{
+		},
+		{
 			brand: 'amd',
 			model: '5950x',
 			series: 'ryzen 9',
@@ -71,6 +72,14 @@ export const Overclockers: Store = {
 			{
 				series: '3090',
 				url: 'https://www.overclockers.co.uk/pc-components/graphics-cards/nvidia/geforce-rtx-3090'
+			},
+			{
+				series: '6800',
+				url: 'https://www.overclockers.co.uk/pc-components/graphics-cards/amd/radeon-rx-6800-series'
+			},
+			{
+				series: '6800xt',
+				url: 'https://www.overclockers.co.uk/pc-components/graphics-cards/amd/radeon-rx-6800-xt-series'
 			}
 		]
 	},
