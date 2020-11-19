@@ -207,10 +207,10 @@ export const AmazonUk: Store = {
 		{
 			brand: 'sony',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08FC5L3RG?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08H95Y452?tag=bend3st07-21',
 			model: 'console',
 			series: 'playstation',
-			url: 'https://www.amazon.co.uk/dp/B08FC5L3RG/'
+			url: 'https://www.amazon.co.uk/dp/B08H95Y452/'
 		},
 		{
 			brand: 'sony',
