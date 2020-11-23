@@ -31,7 +31,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'test:brand',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B081265T5Z?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B081265T5Z?tag=bend3st04-21',
 			model: 'test:model',
 			series: 'test:series',
 			url: 'https://www.amazon.co.uk/dp/B081265T5Z/'
@@ -39,7 +39,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HSJ1622?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08HSJ1622?tag=bend3st04-21',
 			model: 'dual',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08HSJ1622'
@@ -47,7 +47,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KHFZN9P?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08KHFZN9P?tag=bend3st04-21',
 			model: 'dual oc',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08KHFZN9P'
@@ -55,7 +55,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HT7PR9Y?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08HT7PR9Y?tag=bend3st04-21',
 			model: 'strix',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08HT7PR9Y'
@@ -63,7 +63,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08L8JNTXQ?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08L8JNTXQ?tag=bend3st04-21',
 			model: 'strix oc',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08L8JNTXQ'
@@ -71,7 +71,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'msi',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KWPDXJZ?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08KWPDXJZ?tag=bend3st04-21',
 			model: 'ventus 2x oc',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08KWPDXJZ'
@@ -79,7 +79,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'msi',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08L6PCZTR?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08L6PCZTR?tag=bend3st04-21',
 			model: 'ventus 3x oc',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08L6PCZTR'
@@ -87,7 +87,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'msi',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KWN2LZG?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08KWN2LZG?tag=bend3st04-21',
 			model: 'gaming x trio',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08KWN2LZG'
@@ -95,7 +95,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08M13DXSZ?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08M13DXSZ?tag=bend3st04-21',
 			model: 'vision oc',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08M13DXSZ'
@@ -103,7 +103,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KHL21CV?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08KHL21CV?tag=bend3st04-21',
 			model: 'gaming oc',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08KHL21CV'
@@ -111,7 +111,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KHL2J5X?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08KHL2J5X?tag=bend3st04-21',
 			model: 'eagle oc',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08KHL2J5X'
@@ -119,7 +119,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'evga',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08L3QCZKZ?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08L3QCZKZ?tag=bend3st04-21',
 			model: 'xc3 black',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08L3QCZKZ'
@@ -127,7 +127,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'evga',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08L3QZP7W?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08L3QZP7W?tag=bend3st04-21',
 			model: 'xc3',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08L3QZP7W'
@@ -135,7 +135,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'evga',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08L3Q41SM?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08L3Q41SM?tag=bend3st04-21',
 			model: 'xc3 ultra',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08L3Q41SM'
@@ -143,7 +143,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'zotac',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HRBR7K9?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08HRBR7K9?tag=bend3st04-21',
 			model: 'twin edge',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08HRBR7K9'
@@ -151,7 +151,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'zotac',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08LBVNKT1?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08LBVNKT1?tag=bend3st04-21',
 			model: 'twin edge oc',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08LBVNKT1'
@@ -159,7 +159,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'pny',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HBF5L3K?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08HBF5L3K?tag=bend3st04-21',
 			model: 'dual fan',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08HBF5L3K'
@@ -167,7 +167,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'pny',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HBJB7YD?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08HBJB7YD?tag=bend3st04-21',
 			model: 'xlr8 revel',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08HBJB7YD'
@@ -175,7 +175,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'amd',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B0815Y8J9N?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B0815Y8J9N?tag=bend3st04-21',
 			model: '5950x',
 			series: 'ryzen 9',
 			url: 'https://www.amazon.co.uk/dp/B0815Y8J9N/'
@@ -183,7 +183,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'amd',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08164VTWH?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08164VTWH?tag=bend3st04-21',
 			model: '5900x',
 			series: 'ryzen 9',
 			url: 'https://www.amazon.co.uk/dp/B08164VTWH/'
@@ -191,7 +191,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'amd',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B0815XFSGK?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B0815XFSGK?tag=bend3st04-21',
 			model: '5800x',
 			series: 'ryzen 7',
 			url: 'https://www.amazon.co.uk/dp/B0815XFSGK/'
@@ -199,7 +199,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'amd',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08166SLDF?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08166SLDF?tag=bend3st04-21',
 			model: '5600x',
 			series: 'ryzen 5',
 			url: 'https://www.amazon.co.uk/dp/B08166SLDF/'
@@ -207,7 +207,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'sony',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08H95Y452?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08H95Y452?tag=bend3st04-21',
 			model: 'console',
 			series: 'playstation',
 			url: 'https://www.amazon.co.uk/dp/B08H95Y452/'
@@ -215,7 +215,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'sony',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08H97NYGP?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08H97NYGP?tag=bend3st04-21',
 			model: 'digital',
 			series: 'playstation',
 			url: 'https://www.amazon.co.uk/dp/B08H97NYGP/'
@@ -223,7 +223,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'microsoft',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08H93GKNJ?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08H93GKNJ?tag=bend3st04-21',
 			model: 'series x',
 			series: 'xbox',
 			url: 'https://www.amazon.co.uk/dp/B08H93GKNJ/'
@@ -231,7 +231,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'microsoft',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08GD9MNZB?tag=bend3st07-21',
+				'https://www.amazon.co.uk/dp/B08GD9MNZB?tag=bend3st04-21',
 			model: 'series s',
 			series: 'xbox',
 			url: 'https://www.amazon.co.uk/dp/B08GD9MNZB/'
@@ -267,7 +267,7 @@ export const AmazonUk: Store = {
 				if (card) {
 					links.push({
 						brand: card.brand as any,
-						cartUrl: `https://www.amazon.co.uk/dp/${asin}?tag=bend3st07-21`,
+						cartUrl: `https://www.amazon.co.uk/dp/${asin}?tag=bend3st04-21`,
 						model: card.model,
 						series,
 						url
