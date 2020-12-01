@@ -44,7 +44,6 @@ import {ProshopDK} from './proshop-dk';
 import {Saturn} from './saturn';
 import {Scan} from './scan';
 import {Store} from './store';
-import {Very} from './very';
 import {logger} from '../../logger';
 
 
@@ -93,7 +92,6 @@ export const storeList = new Map([
 	[ProshopDK.name, ProshopDK],
 	[Saturn.name, Saturn],
 	[Scan.name, Scan],
-	[Very.name, Very],
 ]);
 
 const brands = new Set();
