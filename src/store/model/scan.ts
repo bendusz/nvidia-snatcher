@@ -2,6 +2,7 @@ import {Store} from './store';
 import {getProductLinksBuilder} from './helpers/card';
 
 export const Scan: Store = {
+	backoffStatusCodes: [403, 429, 503],
 	disableAdBlocker: true,
 	labels: {
 		captcha: [
