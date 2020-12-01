@@ -3,7 +3,6 @@ import {logger} from '../../logger';
 import {parseCard} from './helpers/card';
 
 export const Very: Store = {
-	backoffStatusCodes: [403, 429, 503],
 	labels: {
 		inStock: {
 			container: '.stockMessaging .indicator',
@@ -23,7 +22,8 @@ export const Very: Store = {
 			brand: 'test:brand',
 			model: 'test:model',
 			series: 'test:series',
-			url: 'https://www.very.co.uk/msi-geforce-gtx-1660-ti-gaming-x-6g-graphics-card/1600350984.prd'
+			url:
+				'https://www.very.co.uk/msi-geforce-gtx-1660-ti-gaming-x-6g-graphics-card/1600350984.prd'
 		}
 	],
 	linksBuilder: {
@@ -35,9 +35,11 @@ export const Very: Store = {
 				const titleElement = productElement.find('.productTitle').first();
 				const title = titleElement.text()?.replace(/\n/g, ' ').trim();
 
-				if (!title || ['RTX', series]
-					.map(x => title.toLowerCase().includes(x.toLowerCase()))
-					.filter(x => !x).length > 0
+				if (
+					!title ||
+					['RTX', series]
+						.map((x) => title.toLowerCase().includes(x.toLowerCase()))
+						.filter((x) => !x).length > 0
 				) {
 					continue;
 				}
@@ -58,7 +60,7 @@ export const Very: Store = {
 						url
 					});
 				} else {
-					logger.error(`Failed to parse card: ${title}`);
+					logger.error(`Failed to parse card: ${title}`, {url});
 				}
 			}
 
@@ -68,15 +70,18 @@ export const Very: Store = {
 		urls: [
 			{
 				series: '3070',
-				url: 'https://www.very.co.uk/electricals/pc-components/graphics-cards/e/b/118786.end?sort=newin,0&numProducts=100'
+				url:
+					'https://www.very.co.uk/electricals/pc-components/graphics-cards/e/b/118786.end?sort=newin,0&numProducts=100'
 			},
 			{
 				series: '3080',
-				url: 'https://www.very.co.uk/electricals/pc-components/graphics-cards/e/b/118786.end?sort=newin,0&numProducts=100'
+				url:
+					'https://www.very.co.uk/electricals/pc-components/graphics-cards/e/b/118786.end?sort=newin,0&numProducts=100'
 			},
 			{
 				series: '3090',
-				url: 'https://www.very.co.uk/electricals/pc-components/graphics-cards/e/b/118786.end?sort=newin,0&numProducts=100'
+				url:
+					'https://www.very.co.uk/electricals/pc-components/graphics-cards/e/b/118786.end?sort=newin,0&numProducts=100'
 			}
 		]
 	},

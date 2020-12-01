@@ -21,25 +21,25 @@ export const Galaxus: Store = {
 		{
 			brand: 'amd',
 			model: '5600x',
-			series: 'ryzen 5',
+			series: 'ryzen5600',
 			url: 'https://www.galaxus.de/de/product/13987919'
 		},
 		{
 			brand: 'amd',
 			model: '5800x',
-			series: 'ryzen 7',
+			series: 'ryzen5800',
 			url: 'https://www.galaxus.de/de/product/13987918'
 		},
 		{
 			brand: 'amd',
 			model: '5900x',
-			series: 'ryzen 9',
+			series: 'ryzen5900',
 			url: 'https://www.galaxus.de/de/product/13987917'
 		},
 		{
 			brand: 'amd',
 			model: '5950x',
-			series: 'ryzen 9',
+			series: 'ryzen5950',
 			url: 'https://www.galaxus.de/de/product/13987916'
 		}
 	],

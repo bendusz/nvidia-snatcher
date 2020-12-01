@@ -16,31 +16,31 @@ export const Awd: Store = {
 	links: [
 		{
 			brand: 'test:brand',
-			model: 'CARD',
+			model: 'test:model',
 			series: 'test:series',
 			url: 'https://www.awd-it.co.uk/asus-dual-geforce-rtx-2060-mini-oc-6gb-gddr6-pci-express-vr-ready-graphics-card.html'
 		},
 		{
 			brand: 'amd',
 			model: '5600x',
-			series: 'ryzen 5',
+			series: 'ryzen5600',
 			url: 'https://www.awd-it.co.uk/amd-ryzen-5-5600x-cpu-six-core-3.7ghz-processor-socket-am4-retail.html'
 		},
 		{
 			brand: 'amd',
 			model: '5800x',
-			series: 'ryzen 7',
+			series: 'ryzen5800',
 			url: 'https://www.awd-it.co.uk/amd-ryzen-7-5800x-cpu-eight-core-3.8ghz-processor-socket-am4-retail.html'
 		},
 		{
 			brand: 'amd',
 			model: '5900x',
-			series: 'ryzen 9',
+			series: 'ryzen5900',
 			url: 'https://www.awd-it.co.uk/amd-ryzen-9-5900x-cpu-twelve-core-3.7ghz-processor-socket-am4-retail.html'
 		},{
 			brand: 'amd',
 			model: '5950x',
-			series: 'ryzen 9',
+			series: 'ryzen5950',
 			url: 'https://www.awd-it.co.uk/amd-ryzen-9-5950x-sixteen-core-socket-am4-3.4ghz-processor.html'
 		}
 	],

@@ -1,6 +1,6 @@
 import {Store} from './store';
 
-export const AMDDe: Store = {
+export const AmdDe: Store = {
 	labels: {
 		inStock: {
 			container: '.btn-shopping-cart',
@@ -23,7 +23,7 @@ export const AMDDe: Store = {
 			cartUrl:
 				'https://www.amd.com/de/direct-buy/5450881400/de?add-to-cart=true',
 			model: '5950x',
-			series: 'ryzen 9',
+			series: 'ryzen5950',
 			url: 'https://www.amd.com/de/direct-buy/5450881400/de'
 		},
 		{
@@ -31,7 +31,7 @@ export const AMDDe: Store = {
 			cartUrl:
 				'https://www.amd.com/de/direct-buy/5450881500/de?add-to-cart=true',
 			model: '5900x',
-			series: 'ryzen 9',
+			series: 'ryzen5900',
 			url: 'https://www.amd.com/de/direct-buy/5450881500/de'
 		},
 		{
@@ -39,7 +39,7 @@ export const AMDDe: Store = {
 			cartUrl:
 				'https://www.amd.com/de/direct-buy/5450881600/de?add-to-cart=true',
 			model: '5800x',
-			series: 'ryzen 7',
+			series: 'ryzen5800',
 			url: 'https://www.amd.com/de/direct-buy/5450881600/de'
 		},
 		{
@@ -47,8 +47,16 @@ export const AMDDe: Store = {
 			cartUrl:
 				'https://www.amd.com/de/direct-buy/5450881700/de?add-to-cart=true',
 			model: '5600x',
-			series: 'ryzen 5',
+			series: 'ryzen5600',
 			url: 'https://www.amd.com/de/direct-buy/5450881700/de'
+		},
+		{
+			brand: 'amd',
+			cartUrl:
+				'https://www.amd.com/de/direct-buy/5458374100/de?add-to-cart=true',
+			model: 'amd reference',
+			series: 'rx6800xt',
+			url: 'https://www.amd.com/de/direct-buy/5458374100/de'
 		}
 	],
 	name: 'amd-de'

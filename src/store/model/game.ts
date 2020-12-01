@@ -25,14 +25,14 @@ export const Game: Store = {
 		},
 		{
 			brand: 'sony',
-			model: 'console',
-			series: 'playstation',
+			model: 'ps5 console',
+			series: 'sonyps5c',
 			url: 'https://www.game.co.uk/en/playstation-5-console-2826338'
 		},
 		{
 			brand: 'sony',
-			model: 'digital',
-			series: 'playstation',
+			model: 'ps5 digital',
+			series: 'sonyps5de',
 			url: 'https://www.game.co.uk/en/playstation-5-digital-edition-2826341'
 		}
 	],

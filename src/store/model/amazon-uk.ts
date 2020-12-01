@@ -37,206 +37,37 @@ export const AmazonUk: Store = {
 			url: 'https://www.amazon.co.uk/dp/B081265T5Z/'
 		},
 		{
-			brand: 'asus',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HSJ1622?tag=bend3st04-21',
-			model: 'dual',
-			series: '3070',
-			url: 'https://www.amazon.co.uk/dp/B08HSJ1622'
-		},
-		{
-			brand: 'asus',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KHFZN9P?tag=bend3st04-21',
-			model: 'dual oc',
-			series: '3070',
-			url: 'https://www.amazon.co.uk/dp/B08KHFZN9P'
-		},
-		{
-			brand: 'asus',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HT7PR9Y?tag=bend3st04-21',
-			model: 'strix',
-			series: '3070',
-			url: 'https://www.amazon.co.uk/dp/B08HT7PR9Y'
-		},
-		{
-			brand: 'asus',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08L8JNTXQ?tag=bend3st04-21',
-			model: 'strix oc',
-			series: '3070',
-			url: 'https://www.amazon.co.uk/dp/B08L8JNTXQ'
-		},
-		{
-			brand: 'msi',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KWPDXJZ?tag=bend3st04-21',
-			model: 'ventus 2x oc',
-			series: '3070',
-			url: 'https://www.amazon.co.uk/dp/B08KWPDXJZ'
-		},
-		{
-			brand: 'msi',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08L6PCZTR?tag=bend3st04-21',
-			model: 'ventus 3x oc',
-			series: '3070',
-			url: 'https://www.amazon.co.uk/dp/B08L6PCZTR'
-		},
-		{
-			brand: 'msi',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KWN2LZG?tag=bend3st04-21',
-			model: 'gaming x trio',
-			series: '3070',
-			url: 'https://www.amazon.co.uk/dp/B08KWN2LZG'
-		},
-		{
-			brand: 'gigabyte',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08M13DXSZ?tag=bend3st04-21',
-			model: 'vision oc',
-			series: '3070',
-			url: 'https://www.amazon.co.uk/dp/B08M13DXSZ'
-		},
-		{
-			brand: 'gigabyte',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KHL21CV?tag=bend3st04-21',
-			model: 'gaming oc',
-			series: '3070',
-			url: 'https://www.amazon.co.uk/dp/B08KHL21CV'
-		},
-		{
-			brand: 'gigabyte',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KHL2J5X?tag=bend3st04-21',
-			model: 'eagle oc',
-			series: '3070',
-			url: 'https://www.amazon.co.uk/dp/B08KHL2J5X'
-		},
-		{
-			brand: 'evga',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08L3QCZKZ?tag=bend3st04-21',
-			model: 'xc3 black',
-			series: '3070',
-			url: 'https://www.amazon.co.uk/dp/B08L3QCZKZ'
-		},
-		{
-			brand: 'evga',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08L3QZP7W?tag=bend3st04-21',
-			model: 'xc3',
-			series: '3070',
-			url: 'https://www.amazon.co.uk/dp/B08L3QZP7W'
-		},
-		{
-			brand: 'evga',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08L3Q41SM?tag=bend3st04-21',
-			model: 'xc3 ultra',
-			series: '3070',
-			url: 'https://www.amazon.co.uk/dp/B08L3Q41SM'
-		},
-		{
-			brand: 'zotac',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HRBR7K9?tag=bend3st04-21',
-			model: 'twin edge',
-			series: '3070',
-			url: 'https://www.amazon.co.uk/dp/B08HRBR7K9'
-		},
-		{
-			brand: 'zotac',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08LBVNKT1?tag=bend3st04-21',
-			model: 'twin edge oc',
-			series: '3070',
-			url: 'https://www.amazon.co.uk/dp/B08LBVNKT1'
-		},
-		{
-			brand: 'pny',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HBF5L3K?tag=bend3st04-21',
-			model: 'dual fan',
-			series: '3070',
-			url: 'https://www.amazon.co.uk/dp/B08HBF5L3K'
-		},
-		{
-			brand: 'pny',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HBJB7YD?tag=bend3st04-21',
-			model: 'xlr8 revel',
-			series: '3070',
-			url: 'https://www.amazon.co.uk/dp/B08HBJB7YD'
-		},
-		{
-			brand: 'amd',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B0815Y8J9N?tag=bend3st04-21',
-			model: '5950x',
-			series: 'ryzen 9',
-			url: 'https://www.amazon.co.uk/dp/B0815Y8J9N/'
-		},
-		{
-			brand: 'amd',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08164VTWH?tag=bend3st04-21',
-			model: '5900x',
-			series: 'ryzen 9',
-			url: 'https://www.amazon.co.uk/dp/B08164VTWH/'
-		},
-		{
-			brand: 'amd',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B0815XFSGK?tag=bend3st04-21',
-			model: '5800x',
-			series: 'ryzen 7',
-			url: 'https://www.amazon.co.uk/dp/B0815XFSGK/'
-		},
-		{
-			brand: 'amd',
-			cartUrl:
-				'https://www.amazon.co.uk/dp/B08166SLDF?tag=bend3st04-21',
-			model: '5600x',
-			series: 'ryzen 5',
-			url: 'https://www.amazon.co.uk/dp/B08166SLDF/'
-		},
-		{
 			brand: 'sony',
 			cartUrl:
 				'https://www.amazon.co.uk/dp/B08H95Y452?tag=bend3st04-21',
-			model: 'console',
-			series: 'playstation',
-			url: 'https://www.amazon.co.uk/dp/B08H95Y452/'
+			model: 'ps5 console',
+			series: 'sonyps5c',
+			url: 'https://www.amazon.co.uk/dp/B08H95Y452'
 		},
 		{
 			brand: 'sony',
 			cartUrl:
 				'https://www.amazon.co.uk/dp/B08H97NYGP?tag=bend3st04-21',
-			model: 'digital',
-			series: 'playstation',
-			url: 'https://www.amazon.co.uk/dp/B08H97NYGP/'
+			model: 'ps5 digital',
+			series: 'sonyps5de',
+			url: 'https://www.amazon.co.uk/dp/B08H97NYGP'
 		},
 		{
 			brand: 'microsoft',
 			cartUrl:
 				'https://www.amazon.co.uk/dp/B08H93GKNJ?tag=bend3st04-21',
-			model: 'series x',
-			series: 'xbox',
-			url: 'https://www.amazon.co.uk/dp/B08H93GKNJ/'
+			model: 'xbox series x',
+			series: 'xboxsx',
+			url: 'https://www.amazon.co.uk/dp/B08H93GKNJ'
 		},
 		{
 			brand: 'microsoft',
 			cartUrl:
 				'https://www.amazon.co.uk/dp/B08GD9MNZB?tag=bend3st04-21',
-			model: 'series s',
-			series: 'xbox',
-			url: 'https://www.amazon.co.uk/dp/B08GD9MNZB/'
+			model: 'xbox series s',
+			series: 'xboxss',
+			url: 'https://www.amazon.co.uk/dp/B08GD9MNZB'
 		}
-		
 	],
 	linksBuilder: {
 		builder: (docElement, series) => {
@@ -273,7 +104,7 @@ export const AmazonUk: Store = {
 						url
 					});
 				} else {
-					logger.error(`Failed to parse card: ${title}`);
+					logger.error(`Failed to parse card: ${title}`, {url});
 				}
 			}
 

@@ -5,575 +5,408 @@ export const AmazonIt: Store = {
 	labels: {
 		captcha: {
 			container: 'body',
-			text: ['inserisci i caratteri che vedi sotto']
+			text: ['enter the characters you see below']
 		},
 		inStock: {
 			container: '#desktop_buybox',
-			text: ['aggiungi al carrello']
+			text: ['Aggiungi al carrello']
 		},
 		maxPrice: {
-			container: 'span[class*="PriceString"]',
-			euroFormat: true
+			container: 'span[class*="PriceString"]'
 		}
 	},
 	links: [
 		{
-			brand: 'test:brand',
-			model: 'test:model',
-			series: 'test:series',
-			url: 'https://www.amazon.it/dp/B083JX52VG/'
-		},
-		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.it/dp/B08HN7VVLJ?tag=bend3st0bd-21',
-			model: 'rog strix',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08HN7VVLJ/'
-		},
-		{
-			brand: 'asus',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HN6KYS3?tag=bend3st0bd-21',
-			model: 'rog strix oc',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08HN6KYS3/'
-		},
-		{
-			brand: 'asus',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HN37VQK?tag=bend3st0bd-21',
-			model: 'tuf',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08HN37VQK/'
-		},
-		{
-			brand: 'asus',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HN4DSTC?tag=bend3st0bd-21',
-			model: 'tuf oc',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08HN4DSTC/'
-		},
-		{
-			brand: 'evga',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HGBYWQ6?tag=bend3st0bd-21',
-			model: 'ftw3',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08HGBYWQ6/'
-		},
-		{
-			brand: 'evga',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HGYXP4C?tag=bend3st0bd-21',
-			model: 'ftw3 ultra',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08HGYXP4C/'
-		},
-		{
-			brand: 'evga',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HGLN78Q?tag=bend3st0bd-21',
-			model: 'xc3',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08HGLN78Q/'
-		},
-		{
-			brand: 'evga',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HH1BMQQ?tag=bend3st0bd-21',
-			model: 'xc3 black',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08HH1BMQQ/'
-		},
-		{
-			brand: 'evga',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HJ9XFNM?tag=bend3st0bd-21',
-			model: 'xc3 ultra',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08HJ9XFNM/'
-		},
-		{
-			brand: 'gigabyte',
-			cartUrl:
-				'https://www.amazon.it/dp/B08KHLDS72?tag=bend3st0bd-21',
-			model: 'aorus master',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08KHLDS72/'
-		},
-		{
-			brand: 'gigabyte',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HHZVZ3N?tag=bend3st0bd-21',
-			model: 'eagle oc',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08HHZVZ3N/'
-		},
-		{
-			brand: 'gigabyte',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HLZXHZY?tag=bend3st0bd-21',
-			model: 'gaming oc',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08HLZXHZY/'
-		},
-		{
-			brand: 'gigabyte',
-			cartUrl:
-				'https://www.amazon.it/dp/B08KH7RL89?tag=bend3st0bd-21',
-			model: 'vision oc',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08KH7RL89/'
-		},
-		{
-			brand: 'inno3d',
-			cartUrl:
-				'https://www.amazon.it/dp/B08JD6QPXD?tag=bend3st0bd-21',
-			model: 'twin x2 oc',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08JD6QPXD/'
-		},
-		{
-			brand: 'msi',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HM4V2DH?tag=bend3st0bd-21',
-			model: 'gaming x trio',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08HM4V2DH/'
-		},
-		{
-			brand: 'msi',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HM4M621?tag=bend3st0bd-21',
-			model: 'ventus 3x oc',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08HM4M621/'
-		},
-		{
-			brand: 'palit',
-			cartUrl:
-				'https://www.amazon.it/dp/B08JCVWTQY?tag=bend3st0bd-21',
-			model: 'gaming pro',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08JCVWTQY/'
-		},
-		{
-			brand: 'palit',
-			cartUrl:
-				'https://www.amazon.it/dp/B08JCKYYL8?tag=bend3st0bd-21',
-			model: 'gaming pro oc',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08JCKYYL8/'
-		},
-		{
-			brand: 'zotac',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HR1NPPQ?tag=bend3st0bd-21',
-			model: 'trinity',
-			series: '3080',
-			url: 'https://www.amazon.it/dp/B08HR1NPPQ/'
-		},
-		{
-			brand: 'asus',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HN642LY?tag=bend3st0bd-21',
-			model: 'rog strix',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08HN642LY/'
-		},
-		{
-			brand: 'asus',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HN51T8Q?tag=bend3st0bd-21',
-			model: 'rog strix oc',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08HN51T8Q/'
-		},
-		{
-			brand: 'asus',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HN4FLFJ?tag=bend3st0bd-21',
-			model: 'tuf',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08HN4FLFJ/'
-		},
-		{
-			brand: 'asus',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HN5B8FJ?tag=bend3st0bd-21',
-			model: 'tuf oc',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08HN5B8FJ/'
-		},
-		{
-			brand: 'evga',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HGFNPJQ?tag=bend3st0bd-21',
-			model: 'ftw3',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08HGFNPJQ/'
-		},
-		{
-			brand: 'evga',
-			cartUrl:
-				'https://www.amazon.it/dp/B08J5NMDP7?tag=bend3st0bd-21',
-			model: 'ftw3',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08J5NMDP7/'
-		},
-		{
-			brand: 'evga',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HGS1SXH?tag=bend3st0bd-21',
-			model: 'ftw3 ultra',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08HGS1SXH/'
-		},
-		{
-			brand: 'evga',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HGZ4XSZ?tag=bend3st0bd-21',
-			model: 'xc3',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08HGZ4XSZ/'
-		},
-		{
-			brand: 'evga',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HGKQ527?tag=bend3st0bd-21',
-			model: 'xc3 black',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08HGKQ527/'
-		},
-		{
-			brand: 'evga',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HGTNDL4?tag=bend3st0bd-21',
-			model: 'xc3 ultra',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08HGTNDL4/'
-		},
-		{
-			brand: 'gigabyte',
-			cartUrl:
-				'https://www.amazon.it/dp/B08KH7R4FQ?tag=bend3st0bd-21',
-			model: 'aorus master',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08KH7R4FQ/'
-		},
-		{
-			brand: 'gigabyte',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HJPDJTY?tag=bend3st0bd-21',
-			model: 'eagle oc',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08HJPDJTY/'
-		},
-		{
-			brand: 'gigabyte',
-			cartUrl:
-				'https://www.amazon.it/dp/B08KHKDTSJ?tag=bend3st0bd-21',
-			model: 'turbo',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08KHKDTSJ/'
-		},
-		{
-			brand: 'gigabyte',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HJRF2CN?tag=bend3st0bd-21',
-			model: 'gaming oc',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08HJRF2CN/'
-		},
-		{
-			brand: 'msi',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HRBW6VB?tag=bend3st0bd-21',
-			model: 'gaming x trio',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08HRBW6VB/'
-		},
-		{
-			brand: 'msi',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HM661YM?tag=bend3st0bd-21',
-			model: 'ventus 3x oc',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08HM661YM/'
-		},
-		{
-			brand: 'palit',
-			cartUrl:
-				'https://www.amazon.it/dp/B08JQQ1VD1?tag=bend3st0bd-21',
-			model: 'gaming pro',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08JQQ1VD1/'
-		},
-		{
-			brand: 'nvidia',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HR6ZBYJ?tag=bend3st0bd-21',
-			model: 'founders edition',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08HR6ZBYJ/'
-		},
-		{
-			brand: 'zotac',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HJQ182D?tag=bend3st0bd-21',
-			model: 'trinity',
-			series: '3090',
-			url: 'https://www.amazon.it/dp/B08HJQ182D/'
-		},
-		{
-			brand: 'asus',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HSJ1622?tag=bend3st0bd-21',
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08L8LG4M3&Quantity.1=1',
 			model: 'dual',
 			series: '3070',
-			url: 'https://www.amazon.it/dp/B08HSJ1622/'
+			url: 'https://www.amazon.it/dp/B08L8LG4M3'
 		},
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.it/dp/B08KHFZN9P?tag=bend3st0bd-21',
-			model: 'dual oc',
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08L8HPKR6&Quantity.1=1',
+			model: 'dual',
 			series: '3070',
-			url: 'https://www.amazon.it/dp/B08KHFZN9P/'
+			url: 'https://www.amazon.it/dp/B08L8HPKR6'
 		},
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.it/dp/B08HT7PR9Y?tag=bend3st0bd-21',
-			model: 'rog strix',
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08L8JNTXQ&Quantity.1=1',
+			model: 'strix',
 			series: '3070',
-			url: 'https://www.amazon.it/dp/B08HT7PR9Y/'
+			url: 'https://www.amazon.it/dp/B08L8JNTXQ'
 		},
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.it/dp/B08L8JNTXQ?tag=bend3st0bd-21',
-			model: 'rog strix oc',
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08L8KC1J7&Quantity.1=1',
+			model: 'tuf',
 			series: '3070',
-			url: 'https://www.amazon.it/dp/B08L8JNTXQ/'
-		},
-		{
-			brand: 'msi',
-			cartUrl:
-				'https://www.amazon.it/dp/B08KWPDXJZ?tag=bend3st0bd-21',
-			model: 'ventus 2x oc',
-			series: '3070',
-			url: 'https://www.amazon.it/dp/B08KWPDXJZ/'
-		},
-		{
-			brand: 'msi',
-			cartUrl:
-				'https://www.amazon.it/dp/B08L6PCZTR?tag=bend3st0bd-21',
-			model: 'ventus 3x oc',
-			series: '3070',
-			url: 'https://www.amazon.it/dp/B08L6PCZTR/'
-		},
-		{
-			brand: 'msi',
-			cartUrl:
-				'https://www.amazon.it/dp/B08KWN2LZG?tag=bend3st0bd-21',
-			model: 'gaming x trio',
-			series: '3070',
-			url: 'https://www.amazon.it/dp/B08KWN2LZG/'
+			url: 'https://www.amazon.it/dp/B08L8KC1J7'
 		},
 		{
 			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.it/dp/B08M13DXSZ?tag=bend3st0bd-21',
-			model: 'vision oc',
-			series: '3070',
-			url: 'https://www.amazon.it/dp/B08M13DXSZ/'
-		},
-		{
-			brand: 'gigabyte',
-			cartUrl:
-				'https://www.amazon.it/dp/B08KHL21CV?tag=bend3st0bd-21',
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08KY266MG&Quantity.1=1',
 			model: 'gaming oc',
 			series: '3070',
-			url: 'https://www.amazon.it/dp/B08KHL21CV/'
+			url: 'https://www.amazon.it/dp/B08KY266MG'
 		},
 		{
-			brand: 'gigabyte',
+			brand: 'msi',
 			cartUrl:
-				'https://www.amazon.it/dp/B08KHL2J5X?tag=bend3st0bd-21',
-			model: 'eagle oc',
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08KWN2LZG&Quantity.1=1',
+			model: 'gaming',
 			series: '3070',
-			url: 'https://www.amazon.it/dp/B08KHL2J5X/'
+			url: 'https://www.amazon.it/dp/B08KWN2LZG'
+		},
+		{
+			brand: 'pny',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HBJB7YD&Quantity.1=1',
+			model: 'xlr8 revel',
+			series: '3070',
+			url: 'https://www.amazon.it/dp/B08HBJB7YD'
+		},
+		{
+			brand: 'pny',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HBF5L3K&Quantity.1=1',
+			model: 'xlr8 uprising',
+			series: '3070',
+			url: 'https://www.amazon.it/dp/B08HBF5L3K'
+		},
+		{
+			brand: 'msi',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08KWPDXJZ&Quantity.1=1',
+			model: 'ventus 2x oc',
+			series: '3070',
+			url: 'https://www.amazon.it/dp/B08KWPDXJZ'
+		},
+		{
+			brand: 'msi',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08KWLMZV4&Quantity.1=1',
+			model: 'ventus 3x oc',
+			series: '3070',
+			url: 'https://www.amazon.it/dp/B08KWLMZV4'
+		},
+		{
+			brand: 'zotac',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08LF32LJ6&Quantity.1=1',
+			model: 'gaming',
+			series: '3070',
+			url: 'https://www.amazon.it/dp/B08LF32LJ6'
 		},
 		{
 			brand: 'evga',
 			cartUrl:
-				'https://www.amazon.it/dp/B08L3QCZKZ?tag=bend3st0bd-21',
-			model: 'xc3 black',
-			series: '3070',
-			url: 'https://www.amazon.it/dp/B08L3QCZKZ/'
-		},
-		{
-			brand: 'evga',
-			cartUrl:
-				'https://www.amazon.it/dp/B08L3QZP7W?tag=bend3st0bd-21',
-			model: 'xc3',
-			series: '3070',
-			url: 'https://www.amazon.it/dp/B08L3QZP7W/'
-		},
-		{
-			brand: 'evga',
-			cartUrl:
-				'https://www.amazon.it/dp/B08L3Q41SM?tag=bend3st0bd-21',
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08L8L71SM&Quantity.1=1',
 			model: 'xc3 ultra',
 			series: '3070',
-			url: 'https://www.amazon.it/dp/B08L3Q41SM/'
+			url: 'https://www.amazon.it/dp/B08L8L71SM'
 		},
 		{
-			brand: 'zotac',
+			brand: 'evga',
 			cartUrl:
-				'https://www.amazon.it/dp/B08HRBR7K9?tag=bend3st0bd-21',
-			model: 'twin edge',
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08L8L9TCZ&Quantity.1=1',
+			model: 'ftw3',
 			series: '3070',
-			url: 'https://www.amazon.it/dp/B08HRBR7K9/'
-		},
-		{
-			brand: 'zotac',
-			cartUrl:
-				'https://www.amazon.it/dp/B08LBVNKT1?tag=bend3st0bd-21',
-			model: 'twin edge oc',
-			series: '3070',
-			url: 'https://www.amazon.it/dp/B08LBVNKT1/'
-		},
-		{
-			brand: 'pny',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HBF5L3K?tag=bend3st0bd-21',
-			model: 'dual fan',
-			series: '3070',
-			url: 'https://www.amazon.it/dp/B08HBF5L3K/'
-		},
-		{
-			brand: 'pny',
-			cartUrl:
-				'https://www.amazon.it/dp/B08HBJB7YD?tag=bend3st0bd-21',
-			model: 'xlr8 rgb',
-			series: '3070',
-			url: 'https://www.amazon.it/dp/B08HBJB7YD/'
+			url: 'https://www.amazon.it/dp/B08L8L9TCZ'
 		},
 		{
 			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.it/dp/B08KHL21CV?tag=bend3st0bd-21',
-			model: 'GAMING OC',
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08KY266MG&Quantity.1=1',
+			model: 'gaming oc',
 			series: '3070',
-			url: 'https://www.amazon.it/dp/B08KHL21CV/'
+			url: 'https://www.amazon.it/dp/B08KY266MG'
 		},
 		{
-			brand: 'palit',
+			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.it/dp/B08LDS72P2?tag=bend3st0bd-21',
-			model: 'GamingPro',
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08M13DXSZ&Quantity.1=1',
+			model: 'vision oc',
 			series: '3070',
-			url: 'https://www.amazon.it/dp/B08LDS72P2/'
+			url: 'https://www.amazon.it/dp/B08M13DXSZ'
 		},
 		{
-			brand: 'palit',
+			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.it/dp/B08LDT6HQ5?tag=bend3st0bd-21',
-			model: 'GamingPro OC',
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08KXZV626&Quantity.1=1',
+			model: 'eagle',
 			series: '3070',
-			url: 'https://www.amazon.it/dp/B08LDT6HQ5/'
+			url: 'https://www.amazon.it/dp/B08KXZV626'
+		},
+		{
+			brand: 'pny',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HBR7QBM&Quantity.1=1',
+			model: 'xlr8 revel',
+			series: '3080',
+			url: 'https://www.amazon.it/dp/B08HBR7QBM'
+		},
+		{
+			brand: 'pny',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HBTJMLJ&Quantity.1=1',
+			model: 'xlr8 revel',
+			series: '3080',
+			url: 'https://www.amazon.it/dp/B08HBTJMLJ'
+		},
+		{
+			brand: 'evga',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HR3Y5GQ&Quantity.1=1',
+			model: 'ftw3 ultra',
+			series: '3080',
+			url: 'https://www.amazon.it/dp/B08HR3Y5GQ'
+		},
+		{
+			brand: 'evga',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HR55YB5&Quantity.1=1',
+			model: 'xc3 ultra',
+			series: '3080',
+			url: 'https://www.amazon.it/dp/B08HR55YB5'
+		},
+		{
+			brand: 'evga',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HR4RJ3Q&Quantity.1=1',
+			model: 'xc3',
+			series: '3080',
+			url: 'https://www.amazon.it/dp/B08HR4RJ3Q'
+		},
+		{
+			brand: 'evga',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HR6FMF3&Quantity.1=1',
+			model: 'xc3 black',
+			series: '3080',
+			url: 'https://www.amazon.it/dp/B08HR6FMF3'
+		},
+		{
+			brand: 'gigabyte',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HJTH61J&Quantity.1=1',
+			model: 'gaming oc',
+			series: '3080',
+			url: 'https://www.amazon.it/dp/B08HJTH61J'
+		},
+		{
+			brand: 'gigabyte',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HJS2JLJ&Quantity.1=1',
+			model: 'eagle oc',
+			series: '3080',
+			url: 'https://www.amazon.it/dp/B08HJS2JLJ'
+		},
+		{
+			brand: 'asus',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HH5WF97&Quantity.1=1',
+			model: 'tuf oc',
+			series: '3080',
+			url: 'https://www.amazon.it/dp/B08HH5WF97'
+		},
+		{
+			brand: 'asus',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HHDP9DW&Quantity.1=1',
+			model: 'tuf',
+			series: '3080',
+			url: 'https://www.amazon.it/dp/B08HHDP9DW'
+		},
+		{
+			brand: 'asus',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08J6GMWCQ&Quantity.1=1',
+			model: 'strix oc',
+			series: '3090',
+			url: 'https://www.amazon.it/dp/B08J6GMWCQ'
 		},
 		{
 			brand: 'msi',
 			cartUrl:
-				'https://www.amazon.it/dp/B08LNPPCWJ?tag=bend3st0bd-21',
-			model: 'Gaming X Trio',
-			series: '3070',
-			url: 'https://www.amazon.it/dp/B08LNPPCWJ/'
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HR5SXPS&Quantity.1=1',
+			model: 'ventus 3x oc',
+			series: '3080',
+			url: 'https://www.amazon.it/dp/B08HR5SXPS'
+		},
+		{
+			brand: 'zotac',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HJNKT3P&Quantity.1=1',
+			model: 'trinity',
+			series: '3080',
+			url: 'https://www.amazon.it/dp/B08HJNKT3P'
+		},
+		{
+			brand: 'zotac',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HJQ182D&Quantity.1=1',
+			model: 'trinity',
+			series: '3090',
+			url: 'https://www.amazon.it/dp/B08HJQ182D'
+		},
+		{
+			brand: 'pny',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HBQWBHH&Quantity.1=1',
+			model: 'xlr8 revel',
+			series: '3090',
+			url: 'https://www.amazon.it/dp/B08HBQWBHH'
+		},
+		{
+			brand: 'pny',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HBVX53D&Quantity.1=1',
+			model: 'xlr8 revel',
+			series: '3090',
+			url: 'https://www.amazon.it/dp/B08HBVX53D'
 		},
 		{
 			brand: 'msi',
 			cartUrl:
-				'https://www.amazon.it/dp/B08LNQTSCT?tag=bend3st0bd-21',
-			model: 'Ventus 2X OC',
-			series: '3070',
-			url: 'https://www.amazon.it/dp/B08LNQTSCT/'
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HRBW6VB&Quantity.1=1',
+			model: 'gaming x trio',
+			series: '3090',
+			url: 'https://www.amazon.it/dp/B08HRBW6VB'
 		},
 		{
 			brand: 'msi',
 			cartUrl:
-				'https://www.amazon.it/dp/B08KWLMZV4?tag=bend3st0bd-21',
-			model: 'VENTUS 3X OC',
-			series: '3070',
-			url: 'https://www.amazon.it/dp/B08KWLMZV4/'
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HR9D2JS&Quantity.1=1',
+			model: 'ventus 3x',
+			series: '3090',
+			url: 'https://www.amazon.it/dp/B08HR9D2JS'
 		},
-		// {
-		// 	brand: 'amd',
-		// 	cartUrl:
-		// 		'https://www.amazon.it/dp/B0815Y8J9N?tag=bend3st0bd-21',
-		// 	model: '5950x',
-		// 	series: 'ryzen 9',
-		// 	url: 'https://www.amazon.it/dp/B0815Y8J9N/'
-		// },
-		// {
-		// 	brand: 'amd',
-		// 	cartUrl:
-		// 		'https://www.amazon.it/dp/B08164VTWH?tag=bend3st0bd-21',
-		// 	model: '5900x',
-		// 	series: 'ryzen 9',
-		// 	url: 'https://www.amazon.it/dp/B08164VTWH/'
-		// },
-		// {
-		// 	brand: 'amd',
-		// 	cartUrl:
-		// 		'https://www.amazon.it/dp/B0815XFSGK?tag=bend3st0bd-21',
-		// 	model: '5800x',
-		// 	series: 'ryzen 7',
-		// 	url: 'https://www.amazon.it/dp/B0815XFSGK/'
-		// },
-		// {
-		// 	brand: 'amd',
-		// 	cartUrl:
-		// 		'https://www.amazon.it/dp/B08166SLDF?tag=bend3st0bd-21',
-		// 	model: '5600x',
-		// 	series: 'ryzen 5',
-		// 	url: 'https://www.amazon.it/dp/B08166SLDF/'
-		// },
+		{
+			brand: 'gigabyte',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HJRF2CN&Quantity.1=1',
+			model: 'gaming oc',
+			series: '3090',
+			url: 'https://www.amazon.it/dp/B08HJRF2CN'
+		},
+		{
+			brand: 'gigabyte',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HJPDJTY&Quantity.1=1',
+			model: 'eagle oc',
+			series: '3090',
+			url: 'https://www.amazon.it/dp/B08HJPDJTY'
+		},
+		{
+			brand: 'asus',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HJGNJ81&Quantity.1=1',
+			model: 'tuf oc',
+			series: '3090',
+			url: 'https://www.amazon.it/dp/B08HJGNJ81'
+		},
+		{
+			brand: 'asus',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08HJLLF7G&Quantity.1=1',
+			model: 'tuf oc',
+			series: '3090',
+			url: 'https://www.amazon.it/dp/B08HJLLF7G'
+		},
+		{
+			brand: 'amd',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08166SLDF&Quantity.1=1',
+			model: '5600x',
+			series: 'ryzen5600',
+			url: 'https://www.amazon.it/dp/B08166SLDF'
+		},
+		{
+			brand: 'amd',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B0815XFSGK&Quantity.1=1',
+			model: '5800x',
+			series: 'ryzen5800',
+			url: 'https://www.amazon.it/dp/product/B0815XFSGK'
+		},
+		{
+			brand: 'amd',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08164VTWH&Quantity.1=1',
+			model: '5900x',
+			series: 'ryzen5900',
+			url: 'https://www.amazon.it/dp/B08164VTWH'
+		},
+		{
+			brand: 'amd',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B0815Y8J9N&Quantity.1=1',
+			model: '5950x',
+			series: 'ryzen5950',
+			url: 'https://www.amazon.it/dp/B0815Y8J9N'
+		},
+		{
+			brand: 'sapphire',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08MVC76SR&Quantity.1=1',
+			model: 'amd reference',
+			series: 'rx6800xt',
+			url: 'https://www.amazon.it/dp/B08MVC76SR'
+		},
+		{
+			brand: 'sapphire',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08MVCLBWK&Quantity.1=1',
+			model: 'amd reference',
+			series: 'rx6800',
+			url: 'https://www.amazon.it/dp/B08MVCLBWK'
+		},
 		{
 			brand: 'sony',
 			cartUrl:
-				'https://www.amazon.it/dp/B08FC5L3RG?tag=bend3st0bd-21',
-			model: 'console',
-			series: 'playstation',
-			url: 'https://www.amazon.it/dp/B08FC5L3RG/'
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08KKJ37F7&Quantity.1=1',
+			model: 'ps5 console',
+			series: 'sonyps5c',
+			url: 'https://www.amazon.it/dp/B08KKJ37F7'
 		},
 		{
 			brand: 'sony',
 			cartUrl:
-				'https://www.amazon.it/dp/B08H97NYGP?tag=bend3st0bd-21',
-			model: 'digital',
-			series: 'playstation',
-			url: 'https://www.amazon.it/dp/B08H97NYGP/'
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08KJF2D25&Quantity.1=1',
+			model: 'ps5 digital',
+			series: 'sonyps5de',
+			url: 'https://www.amazon.it/dp/B08KJF2D25'
 		},
 		{
 			brand: 'microsoft',
 			cartUrl:
-				'https://www.amazon.it/dp/B08H93GKNJ?tag=bend3st0bd-21',
-			model: 'series x',
-			series: 'xbox',
-			url: 'https://www.amazon.it/dp/B08H93GKNJ/'
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08JDSW1ZW&Quantity.1=1',
+			model: 'xbox series x',
+			series: 'xboxsx',
+			url: 'https://www.amazon.it/dp/B08JDSW1ZW'
 		},
 		{
 			brand: 'microsoft',
 			cartUrl:
-				'https://www.amazon.it/dp/B08GD9MNZB?tag=bend3st0bd-21',
-			model: 'series s',
-			series: 'xbox',
-			url: 'https://www.amazon.it/dp/B08GD9MNZB/'
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08JDTCXRG&Quantity.1=1',
+			model: 'xbox series s',
+			series: 'xboxss',
+			url: 'https://www.amazon.it/dp/B08JDTCXRG'
+		},
+		{
+			brand: 'corsair',
+			cartUrl:
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B07M63H81H&Quantity.1=1',
+			model: '750 platinum',
+			series: 'sf',
+			url: 'https://www.amazon.it/dp/B07M63H81H'
 		}
 	],
 	name: 'amazon-it'

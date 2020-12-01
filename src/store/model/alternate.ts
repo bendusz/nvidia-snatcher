@@ -1,20 +1,30 @@
 import {Store} from './store';
 
 export const Alternate: Store = {
-	backoffStatusCodes: [403, 429, 503],
 	labels: {
 		inStock: {
 			container: '.stockStatus',
-			text: ['auf lager', 'ware neu eingetroffen', 'in kürze versandfertig', 'ware im zulauf']
+			text: [
+				'auf lager',
+				'ware neu eingetroffen',
+				'in kürze versandfertig',
+				'ware im zulauf'
+			]
 		},
 		maxPrice: {
 			container: 'div.price > span',
 			euroFormat: true
 		},
-		outOfStock: {
-			container: '.stockStatus',
-			text: ['liefertermin unbekannt']
-		}
+		outOfStock: [
+			{
+				container: '.stockStatus',
+				text: ['liefertermin unbekannt']
+			},
+			{
+				container: '.stockStatus',
+				text: ['Artikel kann nicht gekauft werden']
+			}
+		]
 	},
 	links: [
 		{
@@ -25,13 +35,13 @@ export const Alternate: Store = {
 		},
 		{
 			brand: 'asus',
-			model: 'rog strix',
+			model: 'strix',
 			series: '3080',
 			url: 'https://www.alternate.de/product/1672868'
 		},
 		{
 			brand: 'asus',
-			model: 'rog strix oc',
+			model: 'strix oc',
 			series: '3080',
 			url: 'https://www.alternate.de/product/1672867'
 		},
@@ -187,13 +197,13 @@ export const Alternate: Store = {
 		},
 		{
 			brand: 'asus',
-			model: 'rog strix',
+			model: 'strix',
 			series: '3090',
 			url: 'https://www.alternate.de/product/1672870'
 		},
 		{
 			brand: 'asus',
-			model: 'rog strix oc',
+			model: 'strix oc',
 			series: '3090',
 			url: 'https://www.alternate.de/product/1672872'
 		},
@@ -316,6 +326,84 @@ export const Alternate: Store = {
 			model: 'trinity',
 			series: '3090',
 			url: 'https://www.alternate.de/product/1672611'
+		},
+		{
+			brand: 'amd',
+			model: '5600x',
+			series: 'ryzen5600',
+			url: 'https://www.alternate.de/product/1685588'
+		},
+		{
+			brand: 'amd',
+			model: '5800x',
+			series: 'ryzen5800',
+			url: 'https://www.alternate.de/product/1685585'
+		},
+		{
+			brand: 'amd',
+			model: '5900x',
+			series: 'ryzen5900',
+			url: 'https://www.alternate.de/product/1685590'
+		},
+		{
+			brand: 'amd',
+			model: '5950x',
+			series: 'ryzen5950',
+			url: 'https://www.alternate.de/product/1685584'
+		},
+		{
+			brand: 'sony',
+			model: 'ps5 console',
+			series: 'sonyps5c',
+			url: 'https://www.alternate.de/product/1651220'
+		},
+		{
+			brand: 'sony',
+			model: 'ps5 digital',
+			series: 'sonyps5de',
+			url: 'https://www.alternate.de/product/1651221'
+		},
+		{
+			brand: 'xfx',
+			model: 'merc',
+			series: 'rx6800xt',
+			url: 'https://www.alternate.de/product/1698792'
+		},
+		{
+			brand: 'sapphire',
+			model: 'nitro oc se',
+			series: 'rx6800xt',
+			url: 'https://www.alternate.de/product/1696478'
+		},
+		{
+			brand: 'sapphire',
+			model: 'nitro oc',
+			series: 'rx6800xt',
+			url: 'https://www.alternate.de/product/1696482'
+		},
+		{
+			brand: 'asus',
+			model: 'strix lc',
+			series: 'rx6800xt',
+			url: 'https://www.alternate.de/product/1695392'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'gaming oc',
+			series: 'rx6800xt',
+			url: 'https://www.alternate.de/product/1697044'
+		},
+		{
+			brand: 'microsoft',
+			model: 'xbox series x',
+			series: 'xboxsx',
+			url: 'https://www.alternate.de/product/1675115'
+		},
+		{
+			brand: 'microsoft',
+			model: 'xbox series s',
+			series: 'xboxss',
+			url: 'https://www.alternate.de/product/1675117'
 		}
 	],
 	name: 'alternate'

@@ -2,7 +2,6 @@ import {Store} from './store';
 import {getProductLinksBuilder} from './helpers/card';
 
 export const Box: Store = {
-	backoffStatusCodes: [403, 429, 503],
 	labels: {
 		inStock: {
 			container: '#divBuyButton',
@@ -21,31 +20,8 @@ export const Box: Store = {
 			brand: 'test:brand',
 			model: 'test:model',
 			series: 'test:series',
-			url: 'https://www.box.co.uk/Gigabyte-GeForce-RTX-2080-Super-8GB-Wind_2724554.html'
-		},
-		{
-			brand: 'microsoft',
-			model: 'series x',
-			series: 'xbox',
-			url: 'https://www.box.co.uk/RRT-00007-Xbox-Series-X-Console_3201195.html'
-		},
-		{
-			brand: 'microsoft',
-			model: 'series s',
-			series: 'xbox',
-			url: 'https://www.box.co.uk/RRS-00007-Xbox-Series-S-Console_3201197.html'
-		},
-		{
-			brand: 'sony',
-			model: 'console',
-			series: 'playstation',
-			url: 'https://www.box.co.uk/CFI-1015A-Sony-Playstation-5-Console_3199689.html'
-		},
-		{
-			brand: 'sony',
-			model: 'digital',
-			series: 'playstation',
-			url: 'https://www.box.co.uk/CFI-1015B-Sony-PlayStation-5-Digital-Edition-Conso_3199692.html'
+			url:
+				'https://www.box.co.uk/Gigabyte-GeForce-RTX-2080-Super-8GB-Wind_2724554.html'
 		}
 	],
 	linksBuilder: {

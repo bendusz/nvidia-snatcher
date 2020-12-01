@@ -3,7 +3,8 @@ import {Store} from './store';
 export const ProshopDE: Store = {
 	labels: {
 		maxPrice: {
-			container: '.site-currency-wrapper > span[class="site-currency-attention"]',
+			container:
+				'.site-currency-wrapper > span[class="site-currency-attention"]',
 			euroFormat: true
 		},
 		outOfStock: {
@@ -20,13 +21,13 @@ export const ProshopDE: Store = {
 		},
 		{
 			brand: 'asus',
-			model: 'rog strix',
+			model: 'strix',
 			series: '3070',
 			url: 'https://www.proshop.de/2876843'
 		},
 		{
 			brand: 'asus',
-			model: ' rog strix oc',
+			model: 'strix oc',
 			series: '3070',
 			url: 'https://www.proshop.de/2876845'
 		},
@@ -122,13 +123,13 @@ export const ProshopDE: Store = {
 		},
 		{
 			brand: 'asus',
-			model: 'rog strix',
+			model: 'strix',
 			series: '3080',
 			url: 'https://www.proshop.de/2876857'
 		},
 		{
 			brand: 'asus',
-			model: ' rog strix oc',
+			model: 'strix oc',
 			series: '3080',
 			url: 'https://www.proshop.de/2876859'
 		},
@@ -206,13 +207,13 @@ export const ProshopDE: Store = {
 		},
 		{
 			brand: 'asus',
-			model: 'rog strix',
+			model: 'strix',
 			series: '3090',
 			url: 'https://www.proshop.de/2876865'
 		},
 		{
 			brand: 'asus',
-			model: 'rog strix oc',
+			model: 'strix oc',
 			series: '3090',
 			url: 'https://www.proshop.de/2876867'
 		},
@@ -251,8 +252,31 @@ export const ProshopDE: Store = {
 			model: 'gaming x trio',
 			series: '3090',
 			url: 'https://www.proshop.de/2876881'
+		},
+		{
+			brand: 'amd',
+			model: '5600x',
+			series: 'ryzen5600',
+			url: 'https://www.proshop.de/2884168'
+		},
+		{
+			brand: 'amd',
+			model: '5800x',
+			series: 'ryzen5800',
+			url: 'https://www.proshop.de/2884171'
+		},
+		{
+			brand: 'amd',
+			model: '5900x',
+			series: 'ryzen5900',
+			url: 'https://www.proshop.de/2884173'
+		},
+		{
+			brand: 'amd',
+			model: '5950x',
+			series: 'ryzen5950',
+			url: 'https://www.proshop.de/2884175'
 		}
 	],
 	name: 'proshop-de'
 };
-

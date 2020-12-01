@@ -46,7 +46,7 @@ export const Arlt: Store = {
 		},
 		{
 			brand: 'asus',
-			model: 'rog strix',
+			model: 'strix',
 			series: '3070',
 			url:
 				'https://www.arlt.com/Hardware/PC-Komponenten/Grafikkarten/NVIDIA/GeForce-RTX/RTX-3070/ASUS-ROG-Strix-GeForce-RTX-3070.html'
@@ -95,7 +95,7 @@ export const Arlt: Store = {
 		},
 		{
 			brand: 'asus',
-			model: 'rog strix oc',
+			model: 'strix oc',
 			series: '3090',
 			url:
 				'https://www.arlt.com/Hardware/PC-Komponenten/Grafikkarten/NVIDIA/GeForce-RTX/RTX-3090/ASUS-ROG-Strix-GeForce-RTX-3090-OC.html'
@@ -110,28 +110,28 @@ export const Arlt: Store = {
 		{
 			brand: 'amd',
 			model: '5600x',
-			series: 'ryzen 5',
+			series: 'ryzen5600',
 			url:
 				'https://www.arlt.com/Hardware/PC-Komponenten/Prozessoren-arlt/AMD-Ryzen-5-5600X-boxed.html'
 		},
 		{
 			brand: 'amd',
 			model: '5800x',
-			series: 'ryzen 7',
+			series: 'ryzen5800',
 			url:
 				'https://www.arlt.com/Hardware/PC-Komponenten/Prozessoren-arlt/AMD-Ryzen-7-5800X-boxed.html'
 		},
 		{
 			brand: 'amd',
 			model: '5900x',
-			series: 'ryzen 9',
+			series: 'ryzen5900',
 			url:
 				'https://www.arlt.com/Hardware/PC-Komponenten/Prozessoren-arlt/AMD-Ryzen-9-5900X-boxed.html'
 		},
 		{
 			brand: 'amd',
 			model: '5950x',
-			series: 'ryzen 9',
+			series: 'ryzen5950',
 			url:
 				'https://www.arlt.com/Hardware/PC-Komponenten/Prozessoren-arlt/AMD-Ryzen-9-5950X-boxed.html'
 		}

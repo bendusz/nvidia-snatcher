@@ -2,7 +2,6 @@ import {Store} from './store';
 import {getProductLinksBuilder} from './helpers/card';
 
 export const Ebuyer: Store = {
-	backoffStatusCodes: [403, 429, 503],
 	labels: {
 		inStock: {
 			container: '.purchase-info',
@@ -22,59 +21,50 @@ export const Ebuyer: Store = {
 			brand: 'test:brand',
 			model: 'test:model',
 			series: 'test:series',
-			url: 'https://www.ebuyer.com/874209-gigabyte-geforce-rtx-2060-windforce-6gb-oc-graphics-card-gv-n2060wf2oc-6gd-v2'
-		},
-		{
-			brand: 'amd',
-			model: '5600x',
-			series: 'ryzen 5',
-			url: 'https://www.ebuyer.com/1126988-amd-ryzen-5-5600x-am4-processor-100-100000065box'
-		},
-		{
-			brand: 'amd',
-			model: '5800x',
-			series: 'ryzen 7',
-			url: 'https://www.ebuyer.com/1126987-amd-ryzen-7-5800x-am4-processor-100-100000063wof'
-		},
-		{
-			brand: 'amd',
-			model: '5900x',
-			series: 'ryzen 9',
-			url: 'https://www.ebuyer.com/1126986-amd-ryzen-9-5900x-am4-processor-100-100000061wof'
-		},{
-			brand: 'amd',
-			model: '5950x',
-			series: 'ryzen 9',
-			url: 'https://www.ebuyer.com/1126985-amd-ryzen-9-5950x-am4-processor-100-100000059wof'
+			url:
+				'https://www.ebuyer.com/874209-gigabyte-geforce-rtx-2060-windforce-6gb-oc-graphics-card-gv-n2060wf2oc-6gd-v2'
 		},
 		{
 			brand: 'sony',
-			model: 'console',
-			series: 'playstation',
+			model: 'ps5 console',
+			series: 'sonyps5c',
 			url: 'https://www.ebuyer.com/1125329-sony-playstation-5-console-cfi-1015a'
 		},
 		{
 			brand: 'sony',
-			model: 'digital',
-			series: 'playstation',
+			model: 'ps5 digital',
+			series: 'sonyps5de',
 			url:
 				'https://www.ebuyer.com/1125332-sony-playstation-5-digital-edition-cfi-1015b'
 		},
 		{
-			brand: 'microsoft',
-			model: 'series s',
-			series: 'xbox',
+			brand: 'amd',
+			model: '5600x',
+			series: 'ryzen5600',
 			url:
-				'https://www.ebuyer.com/1125562-xbox-series-s-all-digital-console-rrs-00007'
+				'https://www.ebuyer.com/1126988-amd-ryzen-5-5600x-am4-processor-100-100000065box'
 		},
 		{
-			brand: 'microsoft',
-			model: 'series x',
-			series: 'xbox',
+			brand: 'amd',
+			model: '5800x',
+			series: 'ryzen5800',
 			url:
-				'https://www.ebuyer.com/1125563-xbox-series-x-console-rrt-00007'
+				'https://www.ebuyer.com/1126987-amd-ryzen-7-5800x-am4-processor-100-100000063wof'
+		},
+		{
+			brand: 'amd',
+			model: '5900x',
+			series: 'ryzen5900',
+			url:
+				'https://www.ebuyer.com/1126986-amd-ryzen-9-5900x-am4-processor-100-100000061wof'
+		},
+		{
+			brand: 'amd',
+			model: '5950x',
+			series: 'ryzen5950',
+			url:
+				'https://www.ebuyer.com/1126985-amd-ryzen-9-5950x-am4-processor-100-100000059wof'
 		}
-		
 	],
 	linksBuilder: {
 		builder: getProductLinksBuilder({
@@ -85,24 +75,29 @@ export const Ebuyer: Store = {
 		}),
 		urls: [
 			{
+				series: 'rx6800',
+				url:
+					'https://www.ebuyer.com/store/Components/cat/Graphics-Cards-AMD/subcat/AMD-RX-6800'
+			},
+			{
+				series: 'rx6800xt',
+				url:
+					'https://www.ebuyer.com/store/Components/cat/Graphics-Cards-AMD/subcat/AMD-RX-6800-XT'
+			},
+			{
 				series: '3070',
-				url: 'https://www.ebuyer.com/store/Components/cat/Graphics-Cards-Nvidia/subcat/GeForce-RTX-3070'
+				url:
+					'https://www.ebuyer.com/store/Components/cat/Graphics-Cards-Nvidia/subcat/GeForce-RTX-3070'
 			},
 			{
 				series: '3080',
-				url: 'https://www.ebuyer.com/store/Components/cat/Graphics-Cards-Nvidia/subcat/GeForce-RTX-3080'
+				url:
+					'https://www.ebuyer.com/store/Components/cat/Graphics-Cards-Nvidia/subcat/GeForce-RTX-3080'
 			},
 			{
 				series: '3090',
-				url: 'https://www.ebuyer.com/store/Components/cat/Graphics-Cards-Nvidia/subcat/GeForce-RTX-3090'
-			},
-			{
-				series: '6800',
-				url: 'https://www.ebuyer.com/store/Components/cat/Graphics-Cards-AMD/subcat/AMD-RX-6800'
-			},
-			{
-				series: '6800xt',
-				url: 'https://www.ebuyer.com/store/Components/cat/Graphics-Cards-AMD/subcat/AMD-RX-6800-XT'
+				url:
+					'https://www.ebuyer.com/store/Components/cat/Graphics-Cards-Nvidia/subcat/GeForce-RTX-3090'
 			}
 		]
 	},

@@ -1,27 +1,21 @@
 import {config, defaultStoreData} from '../../config';
-import {AMD} from './amd';
-import {AMDDe} from './amd-de';
-import {Adorama} from './adorama';
 import {Alternate} from './alternate';
 import {AlternateNL} from './alternate-nl';
-import {AlternateBE} from './alternate-be';
 import {Amazon} from './amazon';
-import {AmazonCa} from './amazon-ca';
 import {AmazonDe} from './amazon-de';
+import {AmazonEs} from './amazon-es';
 import {AmazonFr} from './amazon-fr';
 import {AmazonIt} from './amazon-it';
-import {AmazonEs} from './amazon-es';
 import {AmazonNl} from './amazon-nl';
 import {AmazonUk} from './amazon-uk';
+import {Amd} from './amd';
+import {AmdDe} from './amd-de';
+import {AmdIt} from './amd-it';
 import {Aria} from './aria';
 import {Arlt} from './arlt';
-import {Asus} from './asus';
 import {AsusDe} from './asus-de';
-import {Awd} from './awd';
 import {Azerty} from './azerty';
-import {BAndH} from './bandh';
-import {BestBuy} from './bestbuy';
-import {BestBuyCa} from './bestbuy-ca';
+import {Awd} from './awd';
 import {Box} from './box';
 import {Caseking} from './caseking';
 import {Ccl} from './ccl';
@@ -36,54 +30,42 @@ import {EvgaEu} from './evga-eu';
 import {Galaxus} from './galaxus';
 import {Game} from './game';
 import {Gamestop} from './gamestop';
+import {GamestopDE} from './gamestop-de';
 import {Mediamarkt} from './mediamarkt';
-import {MemoryExpress} from './memoryexpress';
-import {MicroCenter} from './microcenter';
 import {Mindfactory} from './mindfactory';
-import {Newegg} from './newegg';
-import {NeweggCa} from './newegg-ca';
-import {NeweggUk} from './newegg-uk';
 import {Notebooksbilliger} from './notebooksbilliger';
 import {Novatech} from './novatech';
 import {Nvidia} from './nvidia';
 import {NvidiaApi} from './nvidia-api';
-import {OfficeDepot} from './officedepot';
 import {Overclockers} from './overclockers';
 import {PCComponentes} from './pccomponentes';
-import {Pny} from './pny';
 import {ProshopDE} from './proshop-de';
 import {ProshopDK} from './proshop-dk';
 import {Saturn} from './saturn';
 import {Scan} from './scan';
 import {Store} from './store';
 import {Very} from './very';
-import {Zotac} from './zotac';
 import {logger} from '../../logger';
 
+
 export const storeList = new Map([
-	[AMD.name, AMD],
-	[AMDDe.name, AMDDe],
-	[Adorama.name, Adorama],
 	[Alternate.name, Alternate],
 	[AlternateNL.name, AlternateNL],
-	[AlternateBE.name, AlternateBE],
 	[Amazon.name, Amazon],
-	[AmazonCa.name, AmazonCa],
 	[AmazonDe.name, AmazonDe],
-	[AmazonFr.name, AmazonFr],
-	[AmazonIt.name, AmazonIt],
 	[AmazonEs.name, AmazonEs],
+	[AmazonFr.name, AmazonFr],
 	[AmazonNl.name, AmazonNl],
 	[AmazonUk.name, AmazonUk],
+	[AmazonIt.name, AmazonIt],
+	[Amd.name, Amd],
+	[AmdDe.name, AmdDe],
+	[AmdIt.name, AmdIt],
 	[Aria.name, Aria],
 	[Arlt.name, Arlt],
-	[Asus.name, Asus],
 	[AsusDe.name, AsusDe],
-	[Awd.name, Awd],
 	[Azerty.name, Azerty],
-	[BAndH.name, BAndH],
-	[BestBuy.name, BestBuy],
-	[BestBuyCa.name, BestBuyCa],
+	[Awd.name, Awd],
 	[Box.name, Box],
 	[Caseking.name, Caseking],
 	[Ccl.name, Ccl],
@@ -98,27 +80,20 @@ export const storeList = new Map([
 	[Galaxus.name, Galaxus],
 	[Game.name, Game],
 	[Gamestop.name, Gamestop],
+	[GamestopDE.name, GamestopDE],
 	[Mediamarkt.name, Mediamarkt],
-	[MemoryExpress.name, MemoryExpress],
-	[MicroCenter.name, MicroCenter],
 	[Mindfactory.name, Mindfactory],
-	[Newegg.name, Newegg],
-	[NeweggUk.name, NeweggUk],
-	[NeweggCa.name, NeweggCa],
 	[Notebooksbilliger.name, Notebooksbilliger],
 	[Novatech.name, Novatech],
 	[Nvidia.name, Nvidia],
 	[NvidiaApi.name, NvidiaApi],
-	[OfficeDepot.name, OfficeDepot],
 	[Overclockers.name, Overclockers],
 	[PCComponentes.name, PCComponentes],
-	[Pny.name, Pny],
 	[ProshopDE.name, ProshopDE],
 	[ProshopDK.name, ProshopDK],
 	[Saturn.name, Saturn],
 	[Scan.name, Scan],
 	[Very.name, Very],
-	[Zotac.name, Zotac]
 ]);
 
 const brands = new Set();
@@ -126,12 +101,12 @@ const models = new Set();
 const series = new Set();
 const stores = new Map();
 
-function filterBrandsSeriesModels(stores: Map<string, Store>) {
+function filterBrandsSeriesModels() {
 	brands.clear();
 	series.clear();
 	models.clear();
 
-	for (const store of stores.values()) {
+	for (const store of storeList.values()) {
 		for (const link of store.links) {
 			brands.add(link.brand);
 			series.add(link.series);
@@ -150,7 +125,11 @@ function filterBrandsSeriesModels(stores: Map<string, Store>) {
 
 function printConfig() {
 	if (config.store.stores.length > 0) {
-		logger.info(`ℹ selected stores: ${config.store.stores.map(store => store.name).join(', ')}`);
+		logger.info(
+			`ℹ selected stores: ${config.store.stores
+				.map((store) => store.name)
+				.join(', ')}`
+		);
 	}
 
 	if (config.store.showOnlyBrands.length > 0) {
@@ -158,9 +137,15 @@ function printConfig() {
 	}
 
 	if (config.store.showOnlyModels.length > 0) {
-		logger.info(`ℹ selected models: ${config.store.showOnlyModels.map(entry => {
-			return entry.series ? entry.name + ' (' + entry.series + ')' : entry.name;
-		}).join(', ')}`);
+		logger.info(
+			`ℹ selected models: ${config.store.showOnlyModels
+				.map((entry) => {
+					return entry.series
+						? entry.name + ' (' + entry.series + ')'
+						: entry.name;
+				})
+				.join(', ')}`
+		);
 	}
 
 	if (config.store.showOnlySeries.length > 0) {
@@ -175,7 +160,9 @@ function warnIfStoreDeprecated(store: Store) {
 			logger.warn(`${store.name} is deprecated in favor of bestbuy`);
 			break;
 		case 'evga':
-			logger.warn(`${store.name} is deprecated since they only support queuing`);
+			logger.warn(
+				`${store.name} is deprecated since they only support queuing`
+			);
 			break;
 		default:
 	}
@@ -197,7 +184,7 @@ export function updateStores() {
 		}
 	}
 
-	filterBrandsSeriesModels(stores);
+	filterBrandsSeriesModels();
 	printConfig();
 }
 
