@@ -93,13 +93,8 @@ export const Print = {
 
 		return `✖ ${buildProductString(link, store)} :: CAPTCHA`;
 	},
-	inStock(link: Link,
-		store: Store,
-		price: number,
-		color?: boolean,
-		sms?: boolean
-	): string {
-		const productString = `${buildProductString(link, store, false, price)} :: IN STOCK`;
+	inStock(link: Link, store: Store, color?: boolean, sms?: boolean): string {
+		const productString = `${buildProductString(link, store)} :: IN STOCK`;
 
 		if (color) {
 			return chalk.bgGreen.white.bold(`🚀🚨 ${productString} 🚨🚀`);
@@ -217,7 +212,7 @@ function buildSetupString(
 	return `[${store.name}] [setup (${topic})]`;
 }
 
-function buildProductString(link: Link, store: Store, color?: boolean, price?: number): string {
+function buildProductString(link: Link, store: Store, color?: boolean): string {
 	if (color) {
 		return (
 			chalk.cyan(`[${store.name}]`) +
@@ -225,5 +220,5 @@ function buildProductString(link: Link, store: Store, color?: boolean, price?: n
 		);
 	}
 
-	return `[${store.name}] [${link.brand} (${link.series})] ${link.model} ${price}`;
+	return `[${store.name}] [${link.brand} (${link.series})] ${link.model}`;
 }
