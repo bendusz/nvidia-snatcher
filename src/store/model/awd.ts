@@ -5,11 +5,11 @@ export const Awd: Store = {
 	backoffStatusCodes: [403, 429, 503],
 	labels: {
 		inStock: {
-			container: '.vs-stock .ty-qty-in-stock',
-			text: ['item(s)']
+			container: '.product-info',
+			text: ['add to basket']
 		},
 		maxPrice: {
-			container: '.product-info .ty-price-num',
+			container: '.ty-price-num',
 			euroFormat: false // Note: Awd uses non-euroFromat as price seperator
 		},
 		outOfStock: {
