@@ -23,6 +23,30 @@ export const Box: Store = {
 			series: 'test:series',
 			url:
 				'https://www.box.co.uk/Gigabyte-GeForce-RTX-2080-Super-8GB-Wind_2724554.html'
+		},
+		{
+			brand: 'sony',
+			model: 'ps5 console',
+			series: 'sonyps5c',
+			url: 'https://www.box.co.uk/CFI-1015A-Sony-Playstation-5-Console_3199689.html'
+		},
+		{
+			brand: 'sony',
+			model: 'ps5 digital',
+			series: 'sonyps5de',
+			url: 'https://www.box.co.uk/CFI-1015B-Sony-PlayStation-5-Digital-Edition-Conso_3199692.html'
+		},
+		{
+			brand: 'microsoft',
+			model: 'xbox series x',
+			series: 'xboxsx',
+			url: 'https://www.box.co.uk/RRT-00007-Xbox-Series-X-Console_3201195.html'
+		},
+		{
+			brand: 'microsoft',
+			model: 'xbox series s',
+			series: 'xboxss',
+			url: 'https://www.box.co.uk/RRS-00007-Xbox-Series-S-Console_3201197.html'
 		}
 	],
 	linksBuilder: {
@@ -32,6 +56,10 @@ export const Box: Store = {
 			titleSelector: '.p-list-section > h3 > a[href]'
 		}),
 		urls: [
+			{
+				series: '3060ti',
+				url: 'https://www.box.co.uk/rtx-3060-ti-graphics-cards'
+			},
 			{
 				series: '3070',
 				url: 'https://www.box.co.uk/rtx-3070-graphics-cards'
@@ -43,7 +71,7 @@ export const Box: Store = {
 			{
 				series: '3090',
 				url: 'https://www.box.co.uk/rtx-3090-graphics-cards'
-			}
+			},
 		]
 	},
 	name: 'box',

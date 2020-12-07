@@ -52,7 +52,33 @@ export const Currys: Store = {
 			series: 'ryzen5950',
 			url:
 				'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/processors/amd-ryzen-9-5950x-processor-10216688-pdt.html'
+		},
+		// Will be added later, there are no URLs available atm
+		// {
+		// 	brand: 'sony',
+		// 	model: 'ps5 console',
+		// 	series: 'sonyps5c',
+		// 	url: 'https://www.box.co.uk/CFI-1015A-Sony-Playstation-5-Console_3199689.html'
+		// },
+		// {
+		// 	brand: 'sony',
+		// 	model: 'ps5 digital',
+		// 	series: 'sonyps5de',
+		// 	url: 'https://www.box.co.uk/CFI-1015B-Sony-PlayStation-5-Digital-Edition-Conso_3199692.html'
+		// },
+		{
+			brand: 'microsoft',
+			model: 'xbox series x',
+			series: 'xboxsx',
+			url: 'https://www.currys.co.uk/gbuk/gaming/console-gaming/consoles/microsoft-xbox-series-x-1-tb-10203371-pdt.html'
+		},
+		{
+			brand: 'microsoft',
+			model: 'xbox series s',
+			series: 'xboxss',
+			url: 'https://www.currys.co.uk/gbuk/gaming/console-gaming/consoles/microsoft-xbox-series-s-512-gb-ssd-10205195-pdt.html'
 		}
+
 	],
 	linksBuilder: {
 		builder: getProductLinksBuilder({
@@ -62,6 +88,11 @@ export const Currys: Store = {
 			urlSelector: 'a[href]'
 		}),
 		urls: [
+			{
+				series: '3060ti',
+				url:
+					'https://www.currys.co.uk/gbuk/rtx-3060-ti/components-upgrades/graphics-cards/324_3091_30343_xx_ba00013562-bv00313952/xx-criteria.html'
+			},
 			{
 				series: '3070',
 				url:

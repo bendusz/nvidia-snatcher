@@ -1,6 +1,4 @@
 import {config, defaultStoreData} from '../../config';
-import {Alternate} from './alternate';
-import {AlternateNL} from './alternate-nl';
 import {Amazon} from './amazon';
 import {AmazonDe} from './amazon-de';
 import {AmazonEs} from './amazon-es';
@@ -8,48 +6,32 @@ import {AmazonFr} from './amazon-fr';
 import {AmazonIt} from './amazon-it';
 import {AmazonNl} from './amazon-nl';
 import {AmazonUk} from './amazon-uk';
-import {Amd} from './amd';
+import {Argos} from './argos';
 import {AmdDe} from './amd-de';
 import {AmdIt} from './amd-it';
 import {Aria} from './aria';
-import {Arlt} from './arlt';
 import {AsusDe} from './asus-de';
 import {Azerty} from './azerty';
 import {Awd} from './awd';
 import {Box} from './box';
-import {Caseking} from './caseking';
 import {Ccl} from './ccl';
-import {Computeruniverse} from './computeruniverse';
-import {Coolblue} from './coolblue';
-import {Coolmod} from './coolmod';
 import {Currys} from './currys';
-import {Cyberport} from './cyberport';
 import {Ebuyer} from './ebuyer';
-import {Evga} from './evga';
 import {EvgaEu} from './evga-eu';
-import {Galaxus} from './galaxus';
 import {Game} from './game';
-import {Gamestop} from './gamestop';
-import {GamestopDE} from './gamestop-de';
-import {Mediamarkt} from './mediamarkt';
-import {Mindfactory} from './mindfactory';
-import {Notebooksbilliger} from './notebooksbilliger';
+import {JohnLewis} from './johnlewis';
 import {Novatech} from './novatech';
 import {Nvidia} from './nvidia';
 import {NvidiaApi} from './nvidia-api';
 import {Overclockers} from './overclockers';
-import {PCComponentes} from './pccomponentes';
-import {ProshopDE} from './proshop-de';
-import {ProshopDK} from './proshop-dk';
-import {Saturn} from './saturn';
 import {Scan} from './scan';
+import {SmythsToys} from './smythstoys';
+import {Very} from './very'
 import {Store} from './store';
 import {logger} from '../../logger';
 
 
 export const storeList = new Map([
-	[Alternate.name, Alternate],
-	[AlternateNL.name, AlternateNL],
 	[Amazon.name, Amazon],
 	[AmazonDe.name, AmazonDe],
 	[AmazonEs.name, AmazonEs],
@@ -57,41 +39,28 @@ export const storeList = new Map([
 	[AmazonNl.name, AmazonNl],
 	[AmazonUk.name, AmazonUk],
 	[AmazonIt.name, AmazonIt],
-	[Amd.name, Amd],
+	[Argos.name, Argos],
 	[AmdDe.name, AmdDe],
 	[AmdIt.name, AmdIt],
 	[Aria.name, Aria],
-	[Arlt.name, Arlt],
 	[AsusDe.name, AsusDe],
 	[Azerty.name, Azerty],
 	[Awd.name, Awd],
 	[Box.name, Box],
-	[Caseking.name, Caseking],
 	[Ccl.name, Ccl],
-	[Computeruniverse.name, Computeruniverse],
-	[Coolblue.name, Coolblue],
-	[Coolmod.name, Coolmod],
 	[Currys.name, Currys],
-	[Cyberport.name, Cyberport],
 	[Ebuyer.name, Ebuyer],
-	[Evga.name, Evga],
 	[EvgaEu.name, EvgaEu],
-	[Galaxus.name, Galaxus],
 	[Game.name, Game],
-	[Gamestop.name, Gamestop],
-	[GamestopDE.name, GamestopDE],
-	[Mediamarkt.name, Mediamarkt],
-	[Mindfactory.name, Mindfactory],
-	[Notebooksbilliger.name, Notebooksbilliger],
+	[JohnLewis.name, JohnLewis],
 	[Novatech.name, Novatech],
 	[Nvidia.name, Nvidia],
 	[NvidiaApi.name, NvidiaApi],
 	[Overclockers.name, Overclockers],
-	[PCComponentes.name, PCComponentes],
-	[ProshopDE.name, ProshopDE],
-	[ProshopDK.name, ProshopDK],
-	[Saturn.name, Saturn],
 	[Scan.name, Scan],
+	[SmythsToys.name, SmythsToys],
+	[Very.name, Very],
+
 ]);
 
 const brands = new Set();

@@ -3,6 +3,7 @@ import {logger} from '../../logger';
 import {parseCard} from './helpers/card';
 
 export const Very: Store = {
+	backoffStatusCodes: [403, 429, 503],
 	labels: {
 		inStock: {
 			container: '.stockMessaging .indicator',
@@ -25,6 +26,31 @@ export const Very: Store = {
 			url:
 				'https://www.very.co.uk/msi-geforce-gtx-1660-ti-gaming-x-6g-graphics-card/1600350984.prd'
 		}
+		// Will be added later, there are no URLs available atm
+		// {
+		// 	brand: 'sony',
+		// 	model: 'ps5 console',
+		// 	series: 'sonyps5c',
+		// 	url: 'https://www.box.co.uk/CFI-1015A-Sony-Playstation-5-Console_3199689.html'
+		// },
+		// {
+		// 	brand: 'sony',
+		// 	model: 'ps5 digital',
+		// 	series: 'sonyps5de',
+		// 	url: 'https://www.box.co.uk/CFI-1015B-Sony-PlayStation-5-Digital-Edition-Conso_3199692.html'
+		// },
+		// {
+		// 	brand: 'microsoft',
+		// 	model: 'xbox series x',
+		// 	series: 'xboxsx',
+		// 	url: 'https://www.currys.co.uk/gbuk/gaming/console-gaming/consoles/microsoft-xbox-series-x-1-tb-10203371-pdt.html'
+		// },
+		// {
+		// 	brand: 'microsoft',
+		// 	model: 'xbox series s',
+		// 	series: 'xboxss',
+		// 	url: 'https://www.currys.co.uk/gbuk/gaming/console-gaming/consoles/microsoft-xbox-series-s-512-gb-ssd-10205195-pdt.html'
+		// }
 	],
 	linksBuilder: {
 		builder: (docElement, series) => {
@@ -68,6 +94,11 @@ export const Very: Store = {
 		},
 		ttl: 300000,
 		urls: [
+			{
+				series: '3060ti',
+				url:
+					'https://www.very.co.uk/electricals/pc-components/graphics-cards/e/b/118786.end?sort=newin,0&numProducts=100'
+			},
 			{
 				series: '3070',
 				url:

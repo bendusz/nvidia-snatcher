@@ -32,6 +32,18 @@ export const Ebuyer: Store = {
 			url: 'https://www.ebuyer.com/1125329-sony-playstation-5-console-cfi-1015a'
 		},
 		{
+			brand: 'microsoft',
+			model: 'xbox series x',
+			series: 'xboxsx',
+			url: 'https://www.ebuyer.com/1133948-xbox-series-x-console-rrt-00007'
+		},
+		{
+			brand: 'microsoft',
+			model: 'xbox series s',
+			series: 'xboxss',
+			url: 'https://www.ebuyer.com/1133947-xbox-series-s-all-digital-console-rrs-00007'
+		},
+		{
 			brand: 'sony',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
@@ -84,6 +96,11 @@ export const Ebuyer: Store = {
 				series: 'rx6800xt',
 				url:
 					'https://www.ebuyer.com/store/Components/cat/Graphics-Cards-AMD/subcat/AMD-RX-6800-XT'
+			},
+			{
+				series: '3060ti',
+				url:
+					'https://www.ebuyer.com/store/Components/cat/Graphics-Cards-Nvidia/subcat/GeForce-RTX-3060-Ti'
 			},
 			{
 				series: '3070',
