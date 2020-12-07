@@ -2,19 +2,15 @@ import {Store} from './store';
 import {getProductLinksBuilder} from './helpers/card';
 
 export const Awd: Store = {
-	backoffStatusCodes: [403, 429, 503],
+	backoffStatusCodes: [403, 503],
 	labels: {
 		inStock: {
 			container: '.product-info',
 			text: ['add to basket']
 		},
-		maxPrice: {
-			container: '.ty-price-num',
-			euroFormat: false // Note: Awd uses non-euroFromat as price seperator
-		},
 		outOfStock: {
 			container: '.vs-stock',
-			text: ['out of stock']
+			text: ['out-of-stock']
 		}
 	},
 	links: [
