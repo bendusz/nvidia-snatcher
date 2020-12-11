@@ -25,20 +25,20 @@ export const Overclockers: Store = {
 			url:
 				'https://www.overclockers.co.uk/gigabyte-geforce-rtx-2060-oc-rev2-6144mb-gddr6-pci-express-graphics-card-gx-1bj-gi.html'
 		},
-		{
-			brand: 'amd',
-			model: '5600x',
-			series: 'ryzen5600',
-			url:
-				'https://www.overclockers.co.uk/amd-ryzen-5-5600x-six-core-4.6ghz-socket-am4-processor-retail-cp-3cc-am.html'
-		},
-		{
-			brand: 'amd',
-			model: '5800x',
-			series: 'ryzen5800',
-			url:
-				'https://www.overclockers.co.uk/amd-ryzen-7-5800x-eight-core-4.7ghz-socket-am4-processor-retail-cp-3cb-am.html'
-		},
+		// {
+		// 	brand: 'amd',
+		// 	model: '5600x',
+		// 	series: 'ryzen5600',
+		// 	url:
+		// 		'https://www.overclockers.co.uk/amd-ryzen-5-5600x-six-core-4.6ghz-socket-am4-processor-retail-cp-3cc-am.html'
+		// },
+		// {
+		// 	brand: 'amd',
+		// 	model: '5800x',
+		// 	series: 'ryzen5800',
+		// 	url:
+		// 		'https://www.overclockers.co.uk/amd-ryzen-7-5800x-eight-core-4.7ghz-socket-am4-processor-retail-cp-3cb-am.html'
+		// },
 		{
 			brand: 'amd',
 			model: '5900x',
