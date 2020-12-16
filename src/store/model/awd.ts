@@ -48,7 +48,7 @@ export const Awd: Store = {
 			series: 'rx6800xt',
 			url:
 				'https://www.awd-it.co.uk/gigabyte-radeon-rx-6800-xt-gaming-oc-16gb-gddr6-graphics-card.html'
-		},
+		// },
 		// {
 		// 	brand: 'amd',
 		// 	model: '5600x',
@@ -63,12 +63,12 @@ export const Awd: Store = {
 		// 	url:
 		// 		'https://www.awd-it.co.uk/amd-ryzen-7-5800x-cpu-eight-core-3.8ghz-processor-socket-am4-retail.html'
 		// },
-		{
-			brand: 'amd',
-			model: '5900x',
-			series: 'ryzen5900',
-			url:
-				'https://www.awd-it.co.uk/amd-ryzen-9-5900x-cpu-twelve-core-3.7ghz-processor-socket-am4-retail.html'
+		// {
+		// 	brand: 'amd',
+		// 	model: '5900x',
+		// 	series: 'ryzen5900',
+		// 	url:
+		// 		'https://www.awd-it.co.uk/amd-ryzen-9-5900x-cpu-twelve-core-3.7ghz-processor-socket-am4-retail.html'
 		// },
 		// {
 		// 	brand: 'amd',
