@@ -45,13 +45,13 @@ export const Overclockers: Store = {
 			series: 'ryzen5900',
 			url:
 				'https://www.overclockers.co.uk/amd-ryzen-9-5900x-twelve-core-4.8ghz-socket-am4-processor-retail-cp-3ca-am.html'
-		},
-		{
-			brand: 'amd',
-			model: '5950x',
-			series: 'ryzen5950',
-			url:
-				'https://www.overclockers.co.uk/amd-ryzen-9-5950x-sixteen-core-4.9ghz-socket-am4-processor-retail-cp-3c9-am.html'
+		// },
+		// {
+		// 	brand: 'amd',
+		// 	model: '5950x',
+		// 	series: 'ryzen5950',
+		// 	url:
+		// 		'https://www.overclockers.co.uk/amd-ryzen-9-5950x-sixteen-core-4.9ghz-socket-am4-processor-retail-cp-3c9-am.html'
 		}
 	],
 	linksBuilder: {
