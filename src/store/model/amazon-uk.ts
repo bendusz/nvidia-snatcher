@@ -32,7 +32,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'test:brand',
 			cartUrl:
-				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0753R2TWC&Quantity.1=1',
+				'https://www.amazon.co.uk/dp/B0753R2TWC?tag=bdst0f-21',
 			model: 'test:model',
 			series: 'test:series',
 			url: 'https://www.amazon.co.uk/dp/B0753R2TWC/'
@@ -40,7 +40,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'sony',
 			cartUrl:
-				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08H95Y452&Quantity.1=1',
+				'https://www.amazon.co.uk/dp/B08H95Y452?tag=bdst0f-21',
 			model: 'ps5 console',
 			series: 'sonyps5c',
 			url: 'https://www.amazon.co.uk/dp/B08H95Y452'
@@ -48,7 +48,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'sony',
 			cartUrl:
-				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08H97NYGP&Quantity.1=1',
+				'https://www.amazon.co.uk/dp/B08H97NYGP?tag=bdst0f-21',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
 			url: 'https://www.amazon.co.uk/dp/B08H97NYGP'
@@ -56,7 +56,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'microsoft',
 			cartUrl:
-				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08H93GKNJ&Quantity.1=1',
+				'https://www.amazon.co.uk/dp/B08H93GKNJ?tag=bdst0f-21',
 			model: 'xbox series x',
 			series: 'xboxsx',
 			url: 'https://www.amazon.co.uk/dp/B08H93GKNJ'
@@ -64,7 +64,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'microsoft',
 			cartUrl:
-				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08GD9MNZB&Quantity.1=1',
+				'https://www.amazon.co.uk/dp/B08GD9MNZB?tag=bdst0f-21',
 			model: 'xbox series s',
 			series: 'xboxss',
 			url: 'https://www.amazon.co.uk/dp/B08GD9MNZB'
@@ -99,7 +99,7 @@ export const AmazonUk: Store = {
 				if (card) {
 					links.push({
 						brand: card.brand as any,
-						cartUrl: `https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=${asin}&Quantity.1=1`,
+						cartUrl: `https://www.amazon.co.uk/dp/${asin}?tag=bdst0f-21`,
 						model: card.model,
 						series,
 						url
