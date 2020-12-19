@@ -2,6 +2,7 @@ import {Store} from './store';
 
 export const Game: Store = {
 	backoffStatusCodes: [403, 429, 503],
+	currency: '£',
 	labels: {
 		inStock: {
 			container: '.buyingOptions',
@@ -34,7 +35,20 @@ export const Game: Store = {
 			brand: 'sony',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
-			url: 'https://www.game.co.uk/en/playstation-5-digital-edition-2826341'
+			url:
+				'https://www.game.co.uk/en/playstation-5-digital-edition-2826341'
+		},
+		{
+			brand: 'microsoft',
+			model: 'xbox series x',
+			series: 'xboxsx',
+			url: 'https://www.game.co.uk/en/xbox-series-x-2831406'
+		},
+		{
+			brand: 'microsoft',
+			model: 'xbox series s',
+			series: 'xboxss',
+			url: 'https://www.game.co.uk/en/xbox-series-x-2831406'
 		}
 	],
 	name: 'game'

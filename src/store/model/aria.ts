@@ -3,6 +3,7 @@ import {getProductLinksBuilder} from './helpers/card';
 
 export const Aria: Store = {
 	backoffStatusCodes: [403, 429, 503],
+	currency: '£',
 	labels: {
 		inStock: {
 			container: '#addQuantity',
@@ -10,7 +11,7 @@ export const Aria: Store = {
 		},
 		maxPrice: {
 			container: '.priceBig',
-			euroFormat: false	// Note: Aria uses non-euroFromat as price seperator
+			euroFormat: false // Note: Aria uses non-euroFromat as price seperator
 		},
 		outOfStock: {
 			container: '.fBox',
@@ -58,22 +59,24 @@ export const Aria: Store = {
 		}),
 		urls: [
 			{
-				series: '3070',
-				url: 'https://www.aria.co.uk/Products/Components/Graphics+Cards/NVIDIA+GeForce/GeForce+RTX+3070'
-
-			},
-			{
-				series: '3080',
-				url: 'https://www.aria.co.uk/Products/Components/Graphics+Cards/NVIDIA+GeForce/GeForce+RTX+3080'
-			},
-			{
-				series: '3090',
-				url: 'https://www.aria.co.uk/Products/Components/Graphics+Cards/NVIDIA+GeForce/GeForce+RTX+3090'
-			},
-			{
 				series: '3060ti',
 				url:
 					'https://www.aria.co.uk/Products/Components/Graphics+Cards/NVIDIA+GeForce/GeForce+RTX+3060+Ti'
+			},
+			{
+				series: '3070',
+				url:
+					'https://www.aria.co.uk/Products/Components/Graphics+Cards/NVIDIA+GeForce/GeForce+RTX+3070'
+			},
+			{
+				series: '3080',
+				url:
+					'https://www.aria.co.uk/Products/Components/Graphics+Cards/NVIDIA+GeForce/GeForce+RTX+3080'
+			},
+			{
+				series: '3090',
+				url:
+					'https://www.aria.co.uk/Products/Components/Graphics+Cards/NVIDIA+GeForce/GeForce+RTX+3090'
 			}
 		]
 	},

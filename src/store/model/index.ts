@@ -6,12 +6,11 @@ import {AmazonFr} from './amazon-fr';
 import {AmazonIt} from './amazon-it';
 import {AmazonNl} from './amazon-nl';
 import {AmazonUk} from './amazon-uk';
+import {AmazonDeWarehouse} from './amazon-de-warehouse';
 import {Argos} from './argos';
 import {AmdDe} from './amd-de';
-import {AmdIt} from './amd-it';
+import {AmdUk} from './amd-uk';
 import {Aria} from './aria';
-import {AsusDe} from './asus-de';
-import {Azerty} from './azerty';
 import {Awd} from './awd';
 import {Box} from './box';
 import {Ccl} from './ccl';
@@ -39,12 +38,11 @@ export const storeList = new Map([
 	[AmazonNl.name, AmazonNl],
 	[AmazonUk.name, AmazonUk],
 	[AmazonIt.name, AmazonIt],
+	[AmazonDeWarehouse.name, AmazonDeWarehouse],
 	[Argos.name, Argos],
 	[AmdDe.name, AmdDe],
-	[AmdIt.name, AmdIt],
+	[AmdUk.name, AmdUk],
 	[Aria.name, Aria],
-	[AsusDe.name, AsusDe],
-	[Azerty.name, Azerty],
 	[Awd.name, Awd],
 	[Box.name, Box],
 	[Ccl.name, Ccl],
@@ -100,7 +98,9 @@ function printConfig() {
 	}
 
 	if (config.store.showOnlyBrands.length > 0) {
-		logger.info(`ℹ selected brands: ${config.store.showOnlyBrands.join(', ')}`);
+		logger.info(
+			`ℹ selected brands: ${config.store.showOnlyBrands.join(', ')}`
+		);
 	}
 
 	if (config.store.showOnlyModels.length > 0) {
@@ -116,7 +116,9 @@ function printConfig() {
 	}
 
 	if (config.store.showOnlySeries.length > 0) {
-		logger.info(`ℹ selected series: ${config.store.showOnlySeries.join(', ')}`);
+		logger.info(
+			`ℹ selected series: ${config.store.showOnlySeries.join(', ')}`
+		);
 	}
 }
 
@@ -124,7 +126,8 @@ function warnIfStoreDeprecated(store: Store) {
 	switch (store.name) {
 		case 'nvidia':
 		case 'nvidia-api':
-			logger.warn(`${store.name} is deprecated in favor of bestbuy`);
+			if (config.store.country === 'usa')
+				logger.warn(`${store.name} is deprecated in favor of bestbuy`);
 			break;
 		case 'evga':
 			logger.warn(
@@ -146,6 +149,7 @@ export function updateStores() {
 			stores.set(storeData.name, store);
 			store.minPageSleep = storeData.minPageSleep;
 			store.maxPageSleep = storeData.maxPageSleep;
+			store.proxyList = storeData.proxyList;
 		} else {
 			logger.warn(`No store named ${storeData.name}, skipping.`);
 		}

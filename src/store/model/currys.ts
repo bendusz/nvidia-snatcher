@@ -3,13 +3,15 @@ import {getProductLinksBuilder} from './helpers/card';
 
 export const Currys: Store = {
 	backoffStatusCodes: [403, 429, 503],
+	currency: '£',
 	labels: {
 		inStock: {
 			container: '#product-actions button',
 			text: ['add to basket']
 		},
 		maxPrice: {
-			container: '#product-actions span[class*="ProductPriceBlock__Price"]',
+			container:
+				'#product-actions span[class*="ProductPriceBlock__Price"]',
 			euroFormat: false // Note: Currys uses non-euroFromat as price seperator
 		},
 		outOfStock: {
@@ -25,20 +27,20 @@ export const Currys: Store = {
 			url:
 				'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/graphics-cards/msi-geforce-rtx-2060-8-gb-super-ventus-gp-oc-graphics-card-10196803-pdt.html'
 		},
-		// {
-		// 	brand: 'amd',
-		// 	model: '5600x',
-		// 	series: 'ryzen5600',
-		// 	url:
-		// 		'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/processors/amd-ryzen-5-5600x-processor-10216691-pdt.html'
-		// },
-		// {
-		// 	brand: 'amd',
-		// 	model: '5800x',
-		// 	series: 'ryzen5800',
-		// 	url:
-		// 		'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/processors/amd-ryzen-7-5800x-processor-10216690-pdt.html'
-		// },
+		{
+			brand: 'amd',
+			model: '5600x',
+			series: 'ryzen5600',
+			url:
+				'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/processors/amd-ryzen-5-5600x-processor-10216691-pdt.html'
+		},
+		{
+			brand: 'amd',
+			model: '5800x',
+			series: 'ryzen5800',
+			url:
+				'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/processors/amd-ryzen-7-5800x-processor-10216690-pdt.html'
+		},
 		{
 			brand: 'amd',
 			model: '5900x',
@@ -46,39 +48,41 @@ export const Currys: Store = {
 			url:
 				'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/processors/amd-ryzen-9-5900x-processor-10216689-pdt.html'
 		},
-		// {
-		// 	brand: 'amd',
-		// 	model: '5950x',
-		// 	series: 'ryzen5950',
-		// 	url:
-		// 		'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/processors/amd-ryzen-9-5950x-processor-10216688-pdt.html'
-		// },
-		// Will be added later, there are no URLs available atm
-		// {
-		// 	brand: 'sony',
-		// 	model: 'ps5 console',
-		// 	series: 'sonyps5c',
-		// 	url: 'https://www.box.co.uk/CFI-1015A-Sony-Playstation-5-Console_3199689.html'
-		// },
-		// {
-		// 	brand: 'sony',
-		// 	model: 'ps5 digital',
-		// 	series: 'sonyps5de',
-		// 	url: 'https://www.box.co.uk/CFI-1015B-Sony-PlayStation-5-Digital-Edition-Conso_3199692.html'
-		// },
+		{
+			brand: 'amd',
+			model: '5950x',
+			series: 'ryzen5950',
+			url:
+				'https://www.currys.co.uk/gbuk/computing-accessories/components-upgrades/processors/amd-ryzen-9-5950x-processor-10216688-pdt.html'
+		},
+		{
+			brand: 'sony',
+			model: 'ps5 console',
+			series: 'sonyps5c',
+			url:
+				'https://www.currys.co.uk/gbuk/gaming/console-gaming/consoles/sony-playstation-5-825-gb-10203370-pdt.html'
+		},
+		{
+			brand: 'sony',
+			model: 'ps5 digital',
+			series: 'sonyps5de',
+			url:
+				'https://www.currys.co.uk/gbuk/playstation-5-sony-1714-commercial.html'
+		},
 		{
 			brand: 'microsoft',
 			model: 'xbox series x',
 			series: 'xboxsx',
-			url: 'https://www.currys.co.uk/gbuk/gaming/console-gaming/consoles/microsoft-xbox-series-x-1-tb-10203371-pdt.html'
+			url:
+				'https://www.currys.co.uk/gbuk/gaming/console-gaming/consoles/microsoft-xbox-series-x-1-tb-10203371-pdt.html'
 		},
 		{
 			brand: 'microsoft',
 			model: 'xbox series s',
 			series: 'xboxss',
-			url: 'https://www.currys.co.uk/gbuk/gaming/console-gaming/consoles/microsoft-xbox-series-s-512-gb-ssd-10205195-pdt.html'
+			url:
+				'https://www.currys.co.uk/gbuk/gaming/console-gaming/consoles/microsoft-xbox-series-s-512-gb-ssd-10205195-pdt.html'
 		}
-
 	],
 	linksBuilder: {
 		builder: getProductLinksBuilder({

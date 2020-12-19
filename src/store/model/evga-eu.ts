@@ -2,6 +2,7 @@ import {Store} from './store';
 
 export const EvgaEu: Store = {
 	backoffStatusCodes: [403, 429, 503],
+	currency: '£',
 	labels: {
 		inStock: {
 			container: '.product-buy-specs',

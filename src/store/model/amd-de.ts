@@ -2,6 +2,7 @@ import {Store} from './store';
 
 export const AmdDe: Store = {
 	backoffStatusCodes: [403, 429, 503],
+	currency: '€',
 	labels: {
 		inStock: {
 			container: '.btn-shopping-cart',
@@ -10,6 +11,10 @@ export const AmdDe: Store = {
 		maxPrice: {
 			container: '.product-page-description h4',
 			euroFormat: true
+		},
+		outOfStock: {
+			container: '.btn-radeon',
+			text: ['ausverkauft']
 		}
 	},
 	links: [
@@ -54,10 +59,26 @@ export const AmdDe: Store = {
 		{
 			brand: 'amd',
 			cartUrl:
+				'https://www.amd.com/de/direct-buy/5458374000/de?add-to-cart=true',
+			model: 'amd reference',
+			series: 'rx6800',
+			url: 'https://www.amd.com/de/direct-buy/5458374000/de'
+		},
+		{
+			brand: 'amd',
+			cartUrl:
 				'https://www.amd.com/de/direct-buy/5458374100/de?add-to-cart=true',
 			model: 'amd reference',
 			series: 'rx6800xt',
 			url: 'https://www.amd.com/de/direct-buy/5458374100/de'
+		},
+		{
+			brand: 'amd',
+			cartUrl:
+				'https://www.amd.com/de/direct-buy/5458374200/de?add-to-cart=true',
+			model: 'amd reference',
+			series: 'rx6900xt',
+			url: 'https://www.amd.com/de/direct-buy/5458374200/de'
 		}
 	],
 	name: 'amd-de'

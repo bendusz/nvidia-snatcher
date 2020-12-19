@@ -2,6 +2,7 @@ import {Store} from './store';
 
 export const AmazonFr: Store = {
 	backoffStatusCodes: [403, 429, 503],
+	currency: '€',
 	labels: {
 		captcha: {
 			container: 'body',
@@ -12,8 +13,8 @@ export const AmazonFr: Store = {
 			text: ['ajouter au panier']
 		},
 		maxPrice: {
-			container: 'span[class*="PriceString"]',
-			euroFormat: false
+			container: '#priceblock_ourprice',
+			euroFormat: true
 		},
 		outOfStock: [
 			{
@@ -27,7 +28,7 @@ export const AmazonFr: Store = {
 			brand: 'test:brand',
 			model: 'test:model',
 			series: 'test:series',
-			url: 'https://www.amazon.fr/dp/B07PBLD2MX'
+			url: 'https://www.amazon.fr/dp/B07PW9VBK5'
 		},
 		{
 			brand: 'msi',

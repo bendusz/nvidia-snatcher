@@ -2,27 +2,31 @@ import {Store} from './store';
 
 export const AmazonIt: Store = {
 	backoffStatusCodes: [403, 429, 503],
+	currency: '€',
 	labels: {
 		captcha: {
 			container: 'body',
-			text: ['enter the characters you see below']
+			text: [
+				'Inserisci i caratteri visualizzati nello spazio sottostante'
+			]
 		},
 		inStock: {
 			container: '#desktop_buybox',
 			text: ['Aggiungi al carrello']
 		},
 		maxPrice: {
-			container: 'span[class*="PriceString"]'
+			container: '#priceblock_ourprice',
+			euroFormat: true
 		}
 	},
 	links: [
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08L8LG4M3&Quantity.1=1',
+				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08KHFZN9P&Quantity.1=1',
 			model: 'dual',
 			series: '3070',
-			url: 'https://www.amazon.it/dp/B08L8LG4M3'
+			url: 'https://www.amazon.it/dp/B08KHFZN9P'
 		},
 		{
 			brand: 'asus',
@@ -116,7 +120,7 @@ export const AmazonIt: Store = {
 			brand: 'evga',
 			cartUrl:
 				'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08L8L9TCZ&Quantity.1=1',
-			model: 'ftw3',
+			model: 'ftw3 ultra',
 			series: '3070',
 			url: 'https://www.amazon.it/dp/B08L8L9TCZ'
 		},

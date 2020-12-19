@@ -2,6 +2,7 @@ import {Store} from './store';
 
 export const JohnLewis: Store = {
 	backoffStatusCodes: [403, 429, 503],
+	currency: '£',
 	labels: {
 		inStock: {
 			container: 'button--add-to-basket"',

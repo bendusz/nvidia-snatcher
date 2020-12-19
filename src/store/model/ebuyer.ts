@@ -3,10 +3,11 @@ import {getProductLinksBuilder} from './helpers/card';
 
 export const Ebuyer: Store = {
 	backoffStatusCodes: [403, 429, 503],
+	currency: '£',
 	labels: {
 		inStock: {
-			container: '.purchase-info',
-			text: ['add to basket', 'in stock']
+			container: '.purchase-info__cta',
+			text: ['add to basket', 'pre-order']
 		},
 		maxPrice: {
 			container: '.purchase-info__price .price',
@@ -14,7 +15,7 @@ export const Ebuyer: Store = {
 		},
 		outOfStock: {
 			container: '.purchase-info',
-			text: ['coming soon', 'we are expecting this item on']
+			text: ['coming soon']
 		}
 	},
 	links: [
@@ -29,19 +30,8 @@ export const Ebuyer: Store = {
 			brand: 'sony',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url: 'https://www.ebuyer.com/1125329-sony-playstation-5-console-cfi-1015a'
-		},
-		{
-			brand: 'microsoft',
-			model: 'xbox series x',
-			series: 'xboxsx',
-			url: 'https://www.ebuyer.com/1133948-xbox-series-x-console-rrt-00007'
-		},
-		{
-			brand: 'microsoft',
-			model: 'xbox series s',
-			series: 'xboxss',
-			url: 'https://www.ebuyer.com/1133947-xbox-series-s-all-digital-console-rrs-00007'
+			url:
+				'https://www.ebuyer.com/1125329-sony-playstation-5-console-cfi-1015a'
 		},
 		{
 			brand: 'sony',
@@ -50,34 +40,48 @@ export const Ebuyer: Store = {
 			url:
 				'https://www.ebuyer.com/1125332-sony-playstation-5-digital-edition-cfi-1015b'
 		},
-		// {
-		// 	brand: 'amd',
-		// 	model: '5600x',
-		// 	series: 'ryzen5600',
-		// 	url:
-		// 		'https://www.ebuyer.com/1126988-amd-ryzen-5-5600x-am4-processor-100-100000065box'
-		// },
-		// {
-		// 	brand: 'amd',
-		// 	model: '5800x',
-		// 	series: 'ryzen5800',
-		// 	url:
-		// 		'https://www.ebuyer.com/1126987-amd-ryzen-7-5800x-am4-processor-100-100000063wof'
-		// },
+		{
+			brand: 'microsoft',
+			model: 'xbox series x',
+			series: 'xboxsx',
+			url:
+				'https://www.ebuyer.com/1133948-xbox-series-x-console-rrt-00007'
+		},
+		{
+			brand: 'microsoft',
+			model: 'xbox series s',
+			series: 'xboxss',
+			url:
+				'https://www.ebuyer.com/1133947-xbox-series-s-all-digital-console-rrs-00007'
+		},
+		{
+			brand: 'amd',
+			model: '5600x',
+			series: 'ryzen5600',
+			url:
+				'https://www.ebuyer.com/1126988-amd-ryzen-5-5600x-am4-processor-100-100000065box'
+		},
+		{
+			brand: 'amd',
+			model: '5800x',
+			series: 'ryzen5800',
+			url:
+				'https://www.ebuyer.com/1126987-amd-ryzen-7-5800x-am4-processor-100-100000063wof'
+		},
 		{
 			brand: 'amd',
 			model: '5900x',
 			series: 'ryzen5900',
 			url:
 				'https://www.ebuyer.com/1126986-amd-ryzen-9-5900x-am4-processor-100-100000061wof'
+		},
+		{
+			brand: 'amd',
+			model: '5950x',
+			series: 'ryzen5950',
+			url:
+				'https://www.ebuyer.com/1126985-amd-ryzen-9-5950x-am4-processor-100-100000059wof'
 		}
-		// {
-		// 	brand: 'amd',
-		// 	model: '5950x',
-		// 	series: 'ryzen5950',
-		// 	url:
-		// 		'https://www.ebuyer.com/1126985-amd-ryzen-9-5950x-am4-processor-100-100000059wof'
-		// }
 	],
 	linksBuilder: {
 		builder: getProductLinksBuilder({
@@ -96,6 +100,11 @@ export const Ebuyer: Store = {
 				series: 'rx6800xt',
 				url:
 					'https://www.ebuyer.com/store/Components/cat/Graphics-Cards-AMD/subcat/AMD-RX-6800-XT'
+			},
+			{
+				series: 'rx6900xt',
+				url:
+					'https://www.ebuyer.com/store/Components/cat/Graphics-Cards-AMD/subcat/AMD-RX-6900-XT'
 			},
 			{
 				series: '3060ti',
