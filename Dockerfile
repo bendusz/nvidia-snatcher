@@ -1,5 +1,6 @@
-# Build the source code
-FROM node:15.0.1-alpine3.12 AS builder
+FROM node:14.15.0-alpine3.12 AS builder
+
+LABEL org.opencontainers.image.source="https://github.com/jef/streetmerchant"
 
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 
@@ -14,7 +15,7 @@ COPY src/ src/
 RUN npm run build
 RUN npm prune --production
 
-FROM node:15.0.1-alpine3.12
+FROM node:14.15.0-alpine3.12
 
 RUN apk add --no-cache chromium
 
@@ -32,6 +33,9 @@ WORKDIR /app
 
 COPY --from=builder /build/node_modules/ node_modules/
 COPY --from=builder /build/build/ build/
+COPY web/ web/
+COPY package.json package.json
 COPY version.txt version.txt
 
-CMD [ "node", "./build/index.js" ]
+ENTRYPOINT ["npm", "run"]
+CMD ["start:production"]

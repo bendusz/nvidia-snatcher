@@ -20,7 +20,9 @@ const prettyJson = winston.format.printf((info) => {
 export const logger = winston.createLogger({
 	format: winston.format.combine(
 		winston.format.colorize(),
-		winston.format.metadata({fillExcept: ['level', 'message', 'timestamp']}),
+		winston.format.metadata({
+			fillExcept: ['level', 'message', 'timestamp']
+		}),
 		prettyJson
 	),
 	level: config.logLevel,
@@ -93,6 +95,18 @@ export const Print = {
 
 		return `✖ ${buildProductString(link, store)} :: CAPTCHA`;
 	},
+	cloudflare(link: Link, store: Store, color?: boolean): string {
+		if (color) {
+			return (
+				'✖ ' +
+				buildProductString(link, store, true) +
+				' :: ' +
+				chalk.yellow('CLOUDFLARE, WAITING')
+			);
+		}
+
+		return `✖ ${buildProductString(link, store)} :: CLOUDFLARE, WAITING`;
+	},
 	inStock(link: Link, store: Store, color?: boolean, sms?: boolean): string {
 		const productString = `${buildProductString(link, store)} :: IN STOCK`;
 
@@ -129,7 +143,9 @@ export const Print = {
 				'✖ ' +
 				buildProductString(link, store, true) +
 				' :: ' +
-				chalk.yellow(`PRICE ${link.price ?? ''} EXCEEDS LIMIT ${maxPrice}`)
+				chalk.yellow(
+					`PRICE ${link.price ?? ''} EXCEEDS LIMIT ${maxPrice}`
+				)
 			);
 		}
 
@@ -180,7 +196,8 @@ export const Print = {
 	},
 	productInStock(link: Link): string {
 		let productString = `Product Page: ${link.url}`;
-		if (link.cartUrl) productString += `\nAdd To Cart Link: ${link.cartUrl}`;
+		if (link.cartUrl)
+			productString += `\nAdd To Cart Link: ${link.cartUrl}`;
 
 		return productString;
 	},
@@ -204,7 +221,9 @@ function buildSetupString(
 	color?: boolean
 ): string {
 	if (color) {
-		return chalk.cyan(`[${store.name}]`) + chalk.grey(` [setup (${topic})]`);
+		return (
+			chalk.cyan(`[${store.name}]`) + chalk.grey(` [setup (${topic})]`)
+		);
 	}
 
 	return `[${store.name}] [setup (${topic})]`;
