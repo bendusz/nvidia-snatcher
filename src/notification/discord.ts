@@ -27,12 +27,12 @@ export function sendDiscordMessage(link: Link, store: Store) {
 			try {
 				const embed = new Discord.MessageEmbed()
 					.setTitle('_**Stock alert!**_')
-					.setDescription(
-						'> provided by [streetmerchant](https://github.com/jef/streetmerchant) with :heart:'
-					)
-					.setThumbnail(
-						'https://raw.githubusercontent.com/jef/streetmerchant/main/docs/assets/images/streetmerchant-logo.png'
-					)
+					// .setDescription(
+					// 	'> provided by [streetmerchant](https://github.com/jef/streetmerchant) with :heart:'
+					// )
+					// .setThumbnail(
+					// 	'https://raw.githubusercontent.com/jef/streetmerchant/main/docs/assets/images/streetmerchant-logo.png'
+					// )
 					.setColor('#52b788')
 					.setTimestamp();
 
