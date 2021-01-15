@@ -30,7 +30,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'test:brand',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B0753R2TWC',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0753R2TWC&Quantity.1=1',
 			model: 'test:model',
 			series: 'test:series',
 			url: 'https://www.amazon.co.uk/dp/B0753R2TWC/'
@@ -38,7 +38,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'sony',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08H95Y452',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08H95Y452&Quantity.1=1',
 			model: 'ps5 console',
 			series: 'sonyps5c',
 			url: 'https://www.amazon.co.uk/dp/B08H95Y452'
@@ -46,7 +46,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'sony',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08H97NYGP',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08H97NYGP&Quantity.1=1',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
 			url: 'https://www.amazon.co.uk/dp/B08H97NYGP'
@@ -54,7 +54,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'microsoft',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08H93GKNJ',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08H93GKNJ&Quantity.1=1',
 			model: 'xbox series x',
 			series: 'xboxsx',
 			url: 'https://www.amazon.co.uk/dp/B08H93GKNJ'
@@ -62,7 +62,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'microsoft',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08GD9MNZB',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08GD9MNZB&Quantity.1=1',
 			model: 'xbox series s',
 			series: 'xboxss',
 			url: 'https://www.amazon.co.uk/dp/B08GD9MNZB'
@@ -98,7 +98,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HN7VVLJ',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HN7VVLJ&Quantity.1=1',
 			model: 'strix',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08HN7VVLJ'
@@ -106,7 +106,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HN6KYS3',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HN6KYS3&Quantity.1=1',
 			model: 'strix oc',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08HN6KYS3'
@@ -114,7 +114,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HN37VQK',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HN37VQK&Quantity.1=1',
 			model: 'tuf',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08HN37VQK'
@@ -122,7 +122,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HN4DSTC',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HN4DSTC&Quantity.1=1',
 			model: 'tuf oc',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08HN4DSTC'
@@ -130,7 +130,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'evga',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HGBYWQ6',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HGBYWQ6&Quantity.1=1',
 			model: 'ftw3',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08HGBYWQ6'
@@ -138,7 +138,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'evga',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HGYXP4C',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HGYXP4C&Quantity.1=1',
 			model: 'ftw3 ultra',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08HGYXP4C'
@@ -146,7 +146,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'evga',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HGLN78Q',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HGLN78Q&Quantity.1=1',
 			model: 'xc3',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08HGLN78Q'
@@ -154,7 +154,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'evga',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HH1BMQQ',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HH1BMQQ&Quantity.1=1',
 			model: 'xc3 black',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08HH1BMQQ'
@@ -162,7 +162,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'evga',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HJ9XFNM',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HJ9XFNM&Quantity.1=1',
 			model: 'xc3 ultra',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08HJ9XFNM'
@@ -170,7 +170,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KHLDS72',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08KHLDS72&Quantity.1=1',
 			model: 'aorus master',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08KHLDS72'
@@ -178,7 +178,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HHZVZ3N',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HHZVZ3N&Quantity.1=1',
 			model: 'eagle oc',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08HHZVZ3N'
@@ -186,7 +186,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HLZXHZY',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HLZXHZY&Quantity.1=1',
 			model: 'gaming oc',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08HLZXHZY'
@@ -194,7 +194,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KH7RL89',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08KH7RL89&Quantity.1=1',
 			model: 'vision oc',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08KH7RL89'
@@ -202,7 +202,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'inno3d',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08JD6QPXD',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08JD6QPXD&Quantity.1=1',
 			model: 'twin x2 oc',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08JD6QPXD'
@@ -210,7 +210,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'msi',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HM4V2DH',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HM4V2DH&Quantity.1=1',
 			model: 'gaming x trio',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08HM4V2DH'
@@ -218,7 +218,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'msi',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HM4M621',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HM4M621&Quantity.1=1',
 			model: 'ventus 3x oc',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08HM4M621'
@@ -226,7 +226,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'palit',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08JCVWTQY',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08JCVWTQY&Quantity.1=1',
 			model: 'gaming pro',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08JCVWTQY'
@@ -234,7 +234,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'palit',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08JCKYYL8',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08JCKYYL8&Quantity.1=1',
 			model: 'gaming pro oc',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08JCKYYL8'
@@ -242,7 +242,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'zotac',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HR1NPPQ',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HR1NPPQ&Quantity.1=1',
 			model: 'trinity',
 			series: '3080',
 			url: 'https://www.amazon.co.uk/dp/B08HR1NPPQ'
@@ -250,7 +250,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KHFZN9P',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08KHFZN9P&Quantity.1=1',
 			model: 'dual',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08KHFZN9P'
@@ -258,7 +258,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08L8HPKR6',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08L8HPKR6&Quantity.1=1',
 			model: 'dual',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08L8HPKR6'
@@ -266,7 +266,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08L8JNTXQ',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08L8JNTXQ&Quantity.1=1',
 			model: 'strix',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08L8JNTXQ'
@@ -274,7 +274,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08L8KC1J7',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08L8KC1J7&Quantity.1=1',
 			model: 'tuf',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08L8KC1J7'
@@ -282,7 +282,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KY266MG',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08KY266MG&Quantity.1=1',
 			model: 'gaming oc',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08KY266MG'
@@ -290,7 +290,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'msi',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KWN2LZG',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08KWN2LZG&Quantity.1=1',
 			model: 'gaming',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08KWN2LZG'
@@ -298,7 +298,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'pny',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HBJB7YD',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HBJB7YD&Quantity.1=1',
 			model: 'xlr8 revel',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08HBJB7YD'
@@ -306,7 +306,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'pny',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08HBF5L3K',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08HBF5L3K&Quantity.1=1',
 			model: 'xlr8 uprising',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08HBF5L3K'
@@ -314,7 +314,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'msi',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KWPDXJZ',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08KWPDXJZ&Quantity.1=1',
 			model: 'ventus 2x oc',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08KWPDXJZ'
@@ -322,7 +322,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'msi',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KWLMZV4',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08KWLMZV4&Quantity.1=1',
 			model: 'ventus 3x oc',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08KWLMZV4'
@@ -330,7 +330,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'zotac',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08LF32LJ6',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08LF32LJ6&Quantity.1=1',
 			model: 'gaming',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08LF32LJ6'
@@ -338,7 +338,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'evga',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08L8L71SM',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08L8L71SM&Quantity.1=1',
 			model: 'xc3 ultra',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08L8L71SM'
@@ -346,7 +346,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'evga',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08L8L9TCZ',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08L8L9TCZ&Quantity.1=1',
 			model: 'ftw3 ultra',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08L8L9TCZ'
@@ -354,7 +354,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KY266MG',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08KY266MG&Quantity.1=1',
 			model: 'gaming oc',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08KY266MG'
@@ -362,7 +362,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08M13DXSZ',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08M13DXSZ&Quantity.1=1',
 			model: 'vision oc',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08M13DXSZ'
@@ -370,7 +370,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08KXZV626',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08KXZV626&Quantity.1=1',
 			model: 'eagle',
 			series: '3070',
 			url: 'https://www.amazon.co.uk/dp/B08KXZV626'
@@ -378,7 +378,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'msi',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08P2DQ28S',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08P2DQ28S&Quantity.1=1',
 			model: 'ventus 2x oc',
 			series: '3060ti',
 			url: 'https://www.amazon.co.uk/dp/B08P2DQ28S'
@@ -386,7 +386,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'msi',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08NW2YJB2',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08NW2YJB2&Quantity.1=1',
 			model: 'ventus 2x oc',
 			series: '3060ti',
 			url: 'https://www.amazon.co.uk/dp/B08NW2YJB2'
@@ -394,7 +394,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'zotac',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08P3XJLJJ',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08P3XJLJJ&Quantity.1=1',
 			model: 'twin edge',
 			series: '3060ti',
 			url: 'https://www.amazon.co.uk/dp/B08P3XJLJJ'
@@ -402,7 +402,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'zotac',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08P3V572B',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08P3V572B&Quantity.1=1',
 			model: 'twin edge oc',
 			series: '3060ti',
 			url: 'https://www.amazon.co.uk/dp/B08P3V572B'
@@ -410,7 +410,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'zotac',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08P3BJ9Y8',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08P3BJ9Y8&Quantity.1=1',
 			model: 'twin edge oc',
 			series: '3060ti',
 			url: 'https://www.amazon.co.uk/dp/B08P3BJ9Y8'
@@ -418,7 +418,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08P3JPX8P',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08P3JPX8P&Quantity.1=1',
 			model: 'eagle',
 			series: '3060ti',
 			url: 'https://www.amazon.co.uk/dp/B08P3JPX8P'
@@ -426,7 +426,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08NW2X37Z',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08NW2X37Z&Quantity.1=1',
 			model: 'gaming oc',
 			series: '3060ti',
 			url: 'https://www.amazon.co.uk/dp/B08NW2X37Z'
@@ -434,7 +434,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'gigabyte',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08NW528S1',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08NW528S1&Quantity.1=1',
 			model: 'eagle oc',
 			series: '3060ti',
 			url: 'https://www.amazon.co.uk/dp/B08NW528S1'
@@ -442,7 +442,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'pny',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08NW693LG',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08NW693LG&Quantity.1=1',
 			model: 'xlr8 revel',
 			series: '3060ti',
 			url: 'https://www.amazon.co.uk/dp/B08NW693LG'
@@ -450,7 +450,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B083Z5P6TX',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B083Z5P6TX&Quantity.1=1',
 			model: 'tuf oc',
 			series: '3060ti',
 			url: 'https://www.amazon.co.uk/dp/B083Z5P6TX'
@@ -458,7 +458,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08NZ4G4T2',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08NZ4G4T2&Quantity.1=1',
 			model: 'tuf oc',
 			series: '3060ti',
 			url: 'https://www.amazon.co.uk/dp/B08NZ4G4T2'
@@ -466,7 +466,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'asus',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08P2HBBLX',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08P2HBBLX&Quantity.1=1',
 			model: 'dual oc',
 			series: '3060ti',
 			url: 'https://www.amazon.co.uk/dp/B08P2HBBLX'
@@ -474,7 +474,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'evga',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08PDN36R3',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PDN36R3&Quantity.1=1',
 			model: 'ftw3',
 			series: '3060ti',
 			url: 'https://www.amazon.co.uk/dp/B08PDN36R3'
@@ -482,7 +482,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'evga',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08PDP837W',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PDP837W&Quantity.1=1',
 			model: 'xc gaming',
 			series: '3060ti',
 			url: 'https://www.amazon.co.uk/dp/B08PDP837W'
@@ -490,7 +490,7 @@ export const AmazonUk: Store = {
 		{
 			brand: 'evga',
 			cartUrl:
-				'https://www.amazon.co.uk/dp/B08PDMVPZ4',
+				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08PDMVPZ4&Quantity.1=1',
 			model: 'xc3 black',
 			series: '3060ti',
 			url: 'https://www.amazon.co.uk/dp/B08PDMVPZ4'
