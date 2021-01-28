@@ -9,7 +9,6 @@ import {sendPagerDutyNotification} from './pagerduty';
 import {sendPushbulletNotification} from './pushbullet';
 import {sendPushoverNotification} from './pushover';
 import {sendSlackMessage} from './slack';
-import {sendSms} from './sms';
 import {sendTelegramMessage} from './telegram';
 import {sendTweet} from './twitter';
 import {sendTwilioMessage} from './twilio';
@@ -21,7 +20,6 @@ export function sendNotification(link: Link, store: Store) {
 	sendDiscordMessage(link, store);
 	sendDesktopNotification(link, store);
 	sendEmail(link, store);
-	sendSms(link, store);
 	// Non-priority
 	adjustPhilipsHueLights();
 	sendMqttMessage(link, store);
