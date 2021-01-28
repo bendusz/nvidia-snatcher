@@ -3,20 +3,12 @@ import {Store} from './store';
 export const JohnLewis: Store = {
 	backoffStatusCodes: [403, 429, 503],
 	currency: '£',
-	labels: {
-		inStock: {
-			container: 'button--add-to-basket"',
-			text: ['Add to your basket']
-		},
-		maxPrice: {
-            container: '.u-centred price',
-            euroFormat: false // Note: JohnLewis uses non-euroFromat as price seperator
-        },
-        outOfStock: {
-			container: '.button--add-to-basket-out-of-stock',
-			text: ['Out of stock']
-        }
-	},
+  labels: {
+    inStock: {
+      container: '#button--add-to-basket',
+      text: ['Add to your basket'],
+    },
+  },
 	links: [
 		{
 			brand: 'test:brand',

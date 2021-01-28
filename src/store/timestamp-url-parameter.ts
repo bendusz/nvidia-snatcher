@@ -5,4 +5,5 @@
  */
 export function timestampUrlParameter(): string {
 	return `&_=${Date.now()}`;
-}
+  }
+  
