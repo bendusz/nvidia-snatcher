@@ -30,7 +30,7 @@ export const AmazonUk: Store = {
     {
       brand: 'test:brand',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B0753R2TWC/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B0753R2TWC/?tag=bndst2-21',
       model: 'test:model',
       series: 'test:series',
       url: 'https://www.amazon.co.uk/dp/B0753R2TWC/',
@@ -38,7 +38,7 @@ export const AmazonUk: Store = {
     {
       brand: 'sony',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08H95Y452/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08H95Y452/?tag=bndst2-21',
       model: 'ps5 console',
       series: 'sonyps5c',
       url: 'https://www.amazon.co.uk/dp/B08H95Y452',
@@ -46,7 +46,7 @@ export const AmazonUk: Store = {
     {
       brand: 'sony',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08H97NYGP/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08H97NYGP/?tag=bndst2-21',
       model: 'ps5 digital',
       series: 'sonyps5de',
       url: 'https://www.amazon.co.uk/dp/B08H97NYGP',
@@ -54,7 +54,7 @@ export const AmazonUk: Store = {
     {
       brand: 'microsoft',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08H93GKNJ/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08H93GKNJ/?tag=bndst2-21',
       model: 'xbox series x',
       series: 'xboxsx',
       url: 'https://www.amazon.co.uk/dp/B08H93GKNJ',
@@ -62,7 +62,7 @@ export const AmazonUk: Store = {
     {
       brand: 'microsoft',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08GD9MNZB/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08GD9MNZB/?tag=bndst2-21',
       model: 'xbox series s',
       series: 'xboxss',
       url: 'https://www.amazon.co.uk/dp/B08GD9MNZB',
@@ -98,7 +98,7 @@ export const AmazonUk: Store = {
     {
       brand: 'asus',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08HN7VVLJ/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08HN7VVLJ/?tag=bndst2-21',
       model: 'strix',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08HN7VVLJ',
@@ -106,7 +106,7 @@ export const AmazonUk: Store = {
     {
       brand: 'asus',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08HN6KYS3/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08HN6KYS3/?tag=bndst2-21',
       model: 'strix oc',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08HN6KYS3',
@@ -114,7 +114,7 @@ export const AmazonUk: Store = {
     {
       brand: 'asus',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08HN37VQK/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08HN37VQK/?tag=bndst2-21',
       model: 'tuf',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08HN37VQK',
@@ -122,7 +122,7 @@ export const AmazonUk: Store = {
     {
       brand: 'asus',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08HN4DSTC/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08HN4DSTC/?tag=bndst2-21',
       model: 'tuf oc',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08HN4DSTC',
@@ -130,7 +130,7 @@ export const AmazonUk: Store = {
     {
       brand: 'evga',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08HGBYWQ6/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08HGBYWQ6/?tag=bndst2-21',
       model: 'ftw3',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08HGBYWQ6',
@@ -138,7 +138,7 @@ export const AmazonUk: Store = {
     {
       brand: 'evga',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08HGYXP4C/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08HGYXP4C/?tag=bndst2-21',
       model: 'ftw3 ultra',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08HGYXP4C',
@@ -146,7 +146,7 @@ export const AmazonUk: Store = {
     {
       brand: 'evga',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08HGLN78Q/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08HGLN78Q/?tag=bndst2-21',
       model: 'xc3',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08HGLN78Q',
@@ -154,7 +154,7 @@ export const AmazonUk: Store = {
     {
       brand: 'evga',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08HH1BMQQ/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08HH1BMQQ/?tag=bndst2-21',
       model: 'xc3 black',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08HH1BMQQ',
@@ -162,7 +162,7 @@ export const AmazonUk: Store = {
     {
       brand: 'evga',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08HJ9XFNM/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08HJ9XFNM/?tag=bndst2-21',
       model: 'xc3 ultra',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08HJ9XFNM',
@@ -170,7 +170,7 @@ export const AmazonUk: Store = {
     {
       brand: 'gigabyte',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08KHLDS72/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08KHLDS72/?tag=bndst2-21',
       model: 'aorus master',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08KHLDS72',
@@ -178,7 +178,7 @@ export const AmazonUk: Store = {
     {
       brand: 'gigabyte',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08HHZVZ3N/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08HHZVZ3N/?tag=bndst2-21',
       model: 'eagle oc',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08HHZVZ3N',
@@ -186,7 +186,7 @@ export const AmazonUk: Store = {
     {
       brand: 'gigabyte',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08HLZXHZY/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08HLZXHZY/?tag=bndst2-21',
       model: 'gaming oc',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08HLZXHZY',
@@ -194,7 +194,7 @@ export const AmazonUk: Store = {
     {
       brand: 'gigabyte',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08KH7RL89/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08KH7RL89/?tag=bndst2-21',
       model: 'vision oc',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08KH7RL89',
@@ -202,7 +202,7 @@ export const AmazonUk: Store = {
     {
       brand: 'inno3d',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08JD6QPXD/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08JD6QPXD/?tag=bndst2-21',
       model: 'twin x2 oc',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08JD6QPXD',
@@ -210,7 +210,7 @@ export const AmazonUk: Store = {
     {
       brand: 'msi',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08HM4V2DH/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08HM4V2DH/?tag=bndst2-21',
       model: 'gaming x trio',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08HM4V2DH',
@@ -218,7 +218,7 @@ export const AmazonUk: Store = {
     {
       brand: 'msi',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08HM4M621/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08HM4M621/?tag=bndst2-21',
       model: 'ventus 3x oc',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08HM4M621',
@@ -226,7 +226,7 @@ export const AmazonUk: Store = {
     {
       brand: 'palit',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08JCVWTQY/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08JCVWTQY/?tag=bndst2-21',
       model: 'gaming pro',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08JCVWTQY',
@@ -234,7 +234,7 @@ export const AmazonUk: Store = {
     {
       brand: 'palit',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08JCKYYL8/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08JCKYYL8/?tag=bndst2-21',
       model: 'gaming pro oc',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08JCKYYL8',
@@ -242,7 +242,7 @@ export const AmazonUk: Store = {
     {
       brand: 'zotac',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08HR1NPPQ/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08HR1NPPQ/?tag=bndst2-21',
       model: 'trinity',
       series: '3080',
       url: 'https://www.amazon.co.uk/dp/B08HR1NPPQ',
@@ -250,7 +250,7 @@ export const AmazonUk: Store = {
     {
       brand: 'asus',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08KHFZN9P/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08KHFZN9P/?tag=bndst2-21',
       model: 'dual',
       series: '3070',
       url: 'https://www.amazon.co.uk/dp/B08KHFZN9P',
@@ -258,7 +258,7 @@ export const AmazonUk: Store = {
     {
       brand: 'asus',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08L8HPKR6/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08L8HPKR6/?tag=bndst2-21',
       model: 'dual',
       series: '3070',
       url: 'https://www.amazon.co.uk/dp/B08L8HPKR6',
@@ -266,7 +266,7 @@ export const AmazonUk: Store = {
     {
       brand: 'asus',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08L8JNTXQ/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08L8JNTXQ/?tag=bndst2-21',
       model: 'strix',
       series: '3070',
       url: 'https://www.amazon.co.uk/dp/B08L8JNTXQ',
@@ -274,7 +274,7 @@ export const AmazonUk: Store = {
     {
       brand: 'asus',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08L8KC1J7/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08L8KC1J7/?tag=bndst2-21',
       model: 'tuf',
       series: '3070',
       url: 'https://www.amazon.co.uk/dp/B08L8KC1J7',
@@ -282,7 +282,7 @@ export const AmazonUk: Store = {
     {
       brand: 'gigabyte',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08KY266MG/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08KY266MG/?tag=bndst2-21',
       model: 'gaming oc',
       series: '3070',
       url: 'https://www.amazon.co.uk/dp/B08KY266MG',
@@ -290,7 +290,7 @@ export const AmazonUk: Store = {
     {
       brand: 'msi',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08KWN2LZG/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08KWN2LZG/?tag=bndst2-21',
       model: 'gaming',
       series: '3070',
       url: 'https://www.amazon.co.uk/dp/B08KWN2LZG',
@@ -298,7 +298,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pny',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08HBJB7YD/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08HBJB7YD/?tag=bndst2-21',
       model: 'xlr8 revel',
       series: '3070',
       url: 'https://www.amazon.co.uk/dp/B08HBJB7YD',
@@ -306,7 +306,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pny',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08HBF5L3K/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08HBF5L3K/?tag=bndst2-21',
       model: 'xlr8 uprising',
       series: '3070',
       url: 'https://www.amazon.co.uk/dp/B08HBF5L3K',
@@ -314,7 +314,7 @@ export const AmazonUk: Store = {
     {
       brand: 'msi',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08KWPDXJZ/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08KWPDXJZ/?tag=bndst2-21',
       model: 'ventus 2x oc',
       series: '3070',
       url: 'https://www.amazon.co.uk/dp/B08KWPDXJZ',
@@ -322,7 +322,7 @@ export const AmazonUk: Store = {
     {
       brand: 'msi',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08KWLMZV4/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08KWLMZV4/?tag=bndst2-21',
       model: 'ventus 3x oc',
       series: '3070',
       url: 'https://www.amazon.co.uk/dp/B08KWLMZV4',
@@ -330,7 +330,7 @@ export const AmazonUk: Store = {
     {
       brand: 'zotac',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08LF32LJ6/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08LF32LJ6/?tag=bndst2-21',
       model: 'gaming',
       series: '3070',
       url: 'https://www.amazon.co.uk/dp/B08LF32LJ6',
@@ -338,7 +338,7 @@ export const AmazonUk: Store = {
     {
       brand: 'evga',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08L8L71SM/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08L8L71SM/?tag=bndst2-21',
       model: 'xc3 ultra',
       series: '3070',
       url: 'https://www.amazon.co.uk/dp/B08L8L71SM',
@@ -346,7 +346,7 @@ export const AmazonUk: Store = {
     {
       brand: 'evga',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08L8L9TCZ/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08L8L9TCZ/?tag=bndst2-21',
       model: 'ftw3 ultra',
       series: '3070',
       url: 'https://www.amazon.co.uk/dp/B08L8L9TCZ',
@@ -354,7 +354,7 @@ export const AmazonUk: Store = {
     {
       brand: 'gigabyte',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08KY266MG/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08KY266MG/?tag=bndst2-21',
       model: 'gaming oc',
       series: '3070',
       url: 'https://www.amazon.co.uk/dp/B08KY266MG',
@@ -362,7 +362,7 @@ export const AmazonUk: Store = {
     {
       brand: 'gigabyte',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08M13DXSZ/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08M13DXSZ/?tag=bndst2-21',
       model: 'vision oc',
       series: '3070',
       url: 'https://www.amazon.co.uk/dp/B08M13DXSZ',
@@ -370,7 +370,7 @@ export const AmazonUk: Store = {
     {
       brand: 'gigabyte',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08KXZV626/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08KXZV626/?tag=bndst2-21',
       model: 'eagle',
       series: '3070',
       url: 'https://www.amazon.co.uk/dp/B08KXZV626',
@@ -378,7 +378,7 @@ export const AmazonUk: Store = {
     {
       brand: 'msi',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08P2DQ28S/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08P2DQ28S/?tag=bndst2-21',
       model: 'ventus 2x oc',
       series: '3060ti',
       url: 'https://www.amazon.co.uk/dp/B08P2DQ28S',
@@ -386,7 +386,7 @@ export const AmazonUk: Store = {
     {
       brand: 'msi',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08NW2YJB2/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08NW2YJB2/?tag=bndst2-21',
       model: 'ventus 2x oc',
       series: '3060ti',
       url: 'https://www.amazon.co.uk/dp/B08NW2YJB2',
@@ -394,7 +394,7 @@ export const AmazonUk: Store = {
     {
       brand: 'zotac',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08P3XJLJJ/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08P3XJLJJ/?tag=bndst2-21',
       model: 'twin edge',
       series: '3060ti',
       url: 'https://www.amazon.co.uk/dp/B08P3XJLJJ',
@@ -402,7 +402,7 @@ export const AmazonUk: Store = {
     {
       brand: 'zotac',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08P3V572B/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08P3V572B/?tag=bndst2-21',
       model: 'twin edge oc',
       series: '3060ti',
       url: 'https://www.amazon.co.uk/dp/B08P3V572B',
@@ -410,7 +410,7 @@ export const AmazonUk: Store = {
     {
       brand: 'zotac',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08P3BJ9Y8/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08P3BJ9Y8/?tag=bndst2-21',
       model: 'twin edge oc',
       series: '3060ti',
       url: 'https://www.amazon.co.uk/dp/B08P3BJ9Y8',
@@ -418,7 +418,7 @@ export const AmazonUk: Store = {
     {
       brand: 'gigabyte',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08P3JPX8P/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08P3JPX8P/?tag=bndst2-21',
       model: 'eagle',
       series: '3060ti',
       url: 'https://www.amazon.co.uk/dp/B08P3JPX8P',
@@ -426,7 +426,7 @@ export const AmazonUk: Store = {
     {
       brand: 'gigabyte',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08NW2X37Z/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08NW2X37Z/?tag=bndst2-21',
       model: 'gaming oc',
       series: '3060ti',
       url: 'https://www.amazon.co.uk/dp/B08NW2X37Z',
@@ -434,7 +434,7 @@ export const AmazonUk: Store = {
     {
       brand: 'gigabyte',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08NW528S1/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08NW528S1/?tag=bndst2-21',
       model: 'eagle oc',
       series: '3060ti',
       url: 'https://www.amazon.co.uk/dp/B08NW528S1',
@@ -442,7 +442,7 @@ export const AmazonUk: Store = {
     {
       brand: 'pny',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08NW693LG/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08NW693LG/?tag=bndst2-21',
       model: 'xlr8 revel',
       series: '3060ti',
       url: 'https://www.amazon.co.uk/dp/B08NW693LG',
@@ -450,7 +450,7 @@ export const AmazonUk: Store = {
     {
       brand: 'asus',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B083Z5P6TX/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B083Z5P6TX/?tag=bndst2-21',
       model: 'tuf oc',
       series: '3060ti',
       url: 'https://www.amazon.co.uk/dp/B083Z5P6TX',
@@ -458,7 +458,7 @@ export const AmazonUk: Store = {
     {
       brand: 'asus',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08NZ4G4T2/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08NZ4G4T2/?tag=bndst2-21',
       model: 'tuf oc',
       series: '3060ti',
       url: 'https://www.amazon.co.uk/dp/B08NZ4G4T2',
@@ -466,7 +466,7 @@ export const AmazonUk: Store = {
     {
       brand: 'asus',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08P2HBBLX/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08P2HBBLX/?tag=bndst2-21',
       model: 'dual oc',
       series: '3060ti',
       url: 'https://www.amazon.co.uk/dp/B08P2HBBLX',
@@ -474,7 +474,7 @@ export const AmazonUk: Store = {
     {
       brand: 'evga',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08PDN36R3/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08PDN36R3/?tag=bndst2-21',
       model: 'ftw3',
       series: '3060ti',
       url: 'https://www.amazon.co.uk/dp/B08PDN36R3',
@@ -482,7 +482,7 @@ export const AmazonUk: Store = {
     {
       brand: 'evga',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08PDP837W/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08PDP837W/?tag=bndst2-21',
       model: 'xc gaming',
       series: '3060ti',
       url: 'https://www.amazon.co.uk/dp/B08PDP837W',
@@ -490,7 +490,7 @@ export const AmazonUk: Store = {
     {
       brand: 'evga',
       cartUrl:
-        'https://www.amazon.co.uk/dp/B08PDMVPZ4/?tag=bndst1-21',
+        'https://www.amazon.co.uk/dp/B08PDMVPZ4/?tag=bndst2-21',
       model: 'xc3 black',
       series: '3060ti',
       url: 'https://www.amazon.co.uk/dp/B08PDMVPZ4',
